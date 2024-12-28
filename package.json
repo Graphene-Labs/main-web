@@ -27,7 +27,6 @@
     "payload": "3.11.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "shared@latest": "link:@payloadcms/ui/shared@latest",
     "sharp": "0.32.6",
     "tailwind-merge": "^2.6.0"
   },
