@@ -74,13 +74,13 @@ const FooterV1 = ({ logoWhite }) => {
                                             <li>
                                                 <div className="content">
                                                     <strong>Email:</strong>
-                                                    <a href="mailto:info@validtheme.com">info@validtheme.com</a>
+                                                    <a href="mailto:info@validtheme.com">hello@graphenelabs.io</a>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="content">
                                                     <strong>Phone:</strong>
-                                                    <a href="tel:2151234567">+123 34598768</a>
+                                                    <a href="tel:2151234567">+1 5614602879</a>
                                                 </div>
                                             </li>
                                         </ul>
@@ -105,7 +105,7 @@ const FooterV1 = ({ logoWhite }) => {
                             <div className="row">
                                 <div className="col-lg-9 offset-lg-3">
                                     <p>
-                                        Copyright &copy; {(new Date().getFullYear())} Avrix. All Rights Reserved
+                                        Copyright &copy; {(new Date().getFullYear())} Graphene Labs. All Rights Reserved
                                     </p>
                                 </div>
                             </div>
