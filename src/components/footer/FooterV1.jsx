@@ -74,7 +74,7 @@ const FooterV1 = ({ logoWhite }) => {
                                             <li>
                                                 <div className="content">
                                                     <strong>Email:</strong>
-                                                    <a href="mailto:info@validtheme.com">hello@graphenelabs.io</a>
+                                                    <a href="mailto:hello@graphenelabs.io">hello@graphenelabs.io</a>
                                                 </div>
                                             </li>
                                             <li>
