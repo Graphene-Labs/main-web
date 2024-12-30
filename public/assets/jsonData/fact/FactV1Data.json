@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "end": 360,
+        "operator": "K",
+        "info": "World Customer",
+        "delay": ""
+    },
+    {
+        "id": 2,
+        "end": 98,
+        "operator": "%",
+        "info": "Positive Rating",
+        "delay": "0.5s"
+    },
+    {
+        "id": 3,
+        "end": 874,
+        "operator": "+",
+        "info": "Total Branch",
+        "delay": ""
+    },
+    {
+        "id": 4,
+        "end": 35,
+        "operator": "",
+        "info": "Years Experience",
+        "delay": "0.5s"
+    }
+]

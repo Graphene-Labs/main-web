@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "service": "Fast Development",
+        "number": "01"
+    },
+    {
+        "id": 2,
+        "service": "Full Flexibility",
+        "number": "02"
+    },
+    {
+        "id": 3,
+        "service": "Modern Design",
+        "number": "03"
+    },
+    {
+        "id": 4,
+        "service": "Simple Maintenance",
+        "number": "04"
+    }
+]

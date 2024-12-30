@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "thumb": "1.jpg",
+        "thumbFull": "1-full.jpg",
+        "tag": "Marketing",
+        "title": "Photo shooting and editing",
+        "icon": "fas fa-arrow-right"
+    },
+    {
+        "id": 2,
+        "thumb": "2.jpg",
+        "thumbFull": "2-full.jpg",
+        "tag": "Creative",
+        "title": "Quality in industrial design",
+        "icon": "fas fa-arrow-right"
+    },
+    {
+        "id": 3,
+        "thumb": "3.jpg",
+        "thumbFull": "3-full.jpg",
+        "tag": "Design",
+        "title": "Blue business mockup cards",
+        "icon": "fas fa-arrow-right"
+    },
+    {
+        "id": 4,
+        "thumb": "4.jpg",
+        "thumbFull": "4-full.jpg",
+        "tag": "Business",
+        "title": "Simple black & white design",
+        "icon": "fas fa-arrow-right"
+    },
+    {
+        "id": 5,
+        "thumb": "1.jpg",
+        "thumbFull": "1-full.jpg",
+        "tag": "Marketing",
+        "title": "Photo shooting and editing",
+        "icon": "fas fa-arrow-right"
+    },
+    {
+        "id": 6,
+        "thumb": "2.jpg",
+        "thumbFull": "2-full.jpg",
+        "tag": "Creative",
+        "title": "Quality in industrial design",
+        "icon": "fas fa-arrow-right"
+    },
+    {
+        "id": 7,
+        "thumb": "3.jpg",
+        "thumbFull": "3-full.jpg",
+        "tag": "Design",
+        "title": "Blue business mockup cards",
+        "icon": "fas fa-arrow-right"
+    }
+]

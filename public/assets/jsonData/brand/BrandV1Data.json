@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "department": "Marketing"
+    },
+    {
+        "id": 2,
+        "department": "Branding"
+    },
+    {
+        "id": 3,
+        "department": "Design"
+    },
+    {
+        "id": 4,
+        "department": "Development"
+    },
+    {
+        "id": 5,
+        "department": "Marketing"
+    },
+    {
+        "id": 6,
+        "department": "Branding"
+    },
+    {
+        "id": 7,
+        "department": "Design"
+    },
+    {
+        "id": 8,
+        "department": "Development"
+    },
+    {
+        "id": 9,
+        "department": "Marketing"
+    },
+    {
+        "id": 10,
+        "department": "Branding"
+    },
+    {
+        "id": 11,
+        "department": "Design"
+    },
+    {
+        "id": 12,
+        "department": "Development"
+    }
+]

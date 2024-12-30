@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "thumb": "15.jpg",
+        "icon": "quote-big.png",
+        "name": "Istiak Ahmed",
+        "ratings": 5,
+        "designation": "Senior Consultant",
+        "text": "Targeting consultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now always remembering to the point at dimension per techinal issue."
+    },
+    {
+        "id": 2,
+        "thumb": "9.jpg",
+        "icon": "quote-big.png",
+        "name": "Matthew J. Wyman",
+        "ratings": 5,
+        "designation": "Marketing Manager",
+        "text": "Targeting consultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now always remembering to the point at dimension per techinal issue."
+    },
+    {
+        "id": 3,
+        "thumb": "14.jpg",
+        "icon": "quote-big.png",
+        "name": "Metho k. Partho",
+        "ratings": 5,
+        "designation": "Senior Developer",
+        "text": "Targeting consultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now always remembering to the point at dimension per techinal issue."
+    }
+]

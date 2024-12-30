@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "icon": "atlassian.png"
+    },
+    {
+        "id": 2,
+        "icon": "figma.png"
+    },
+    {
+        "id": 3,
+        "icon": "react.png"
+    },
+    {
+        "id": 4,
+        "icon": "wordpress.png"
+    },
+    {
+        "id": 5,
+        "icon": "fab fa-digital-ocean"
+    },
+    {
+        "id": 6,
+        "icon": "fab fa-reddit"
+    },
+    {
+        "id": 7,
+        "icon": "fab fa-dropbox"
+    }
+]
