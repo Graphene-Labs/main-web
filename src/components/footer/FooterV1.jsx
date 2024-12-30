@@ -80,7 +80,7 @@ const FooterV1 = ({ logoWhite }) => {
                                             <li>
                                                 <div className="content">
                                                     <strong>Phone:</strong>
-                                                    <a href="tel:2151234567">+1 5614602879</a>
+                                                    <a href="tel:+1 5614602879">+1 5614602879</a>
                                                 </div>
                                             </li>
                                         </ul>
