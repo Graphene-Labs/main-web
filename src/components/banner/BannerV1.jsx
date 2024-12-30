@@ -9,7 +9,7 @@ const BannerV1 = () => {
                     <div className="row align-center">
                         <div className="col-lg-8 banner-one-item">
                             <h4>Tech Lab</h4>
-                            <h2>Improve<strong>Opportunities</strong></h2>
+                            <h2>Improve<strong>Evolve</strong></h2>
                         </div>
                         <div className="col-lg-3 offset-lg-1 banner-one-item text-center">
                             <div className="curve-text">
