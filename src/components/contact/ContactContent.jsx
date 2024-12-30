@@ -12,7 +12,7 @@ const ContactContent = () => {
                             <div className="contact-style-one-info">
                                 <ul className="contact-address bg-dark text-light" style={{ backgroundImage: "url(assets/img/shape/globe.png)" }}>
                                     <li>
-                                        <a className="phone-link" href="tel:+4733378901">+4733378901</a>
+                                        <a className="phone-link" href="tel:+1 5614602879">+1 5614602879</a>
                                     </li>
                                     <li>
                                         <div className="info">
@@ -25,7 +25,7 @@ const ContactContent = () => {
                                     <li>
                                         <div className="info">
                                             <h4>Official Email</h4>
-                                            <a href="mailto:info@digital.com.com">info@digital.com</a>
+                                            <a href="mailto:hello@graphenelabs.io">hello@graphenelabs.io</a>
                                         </div>
                                     </li>
                                     <li>
