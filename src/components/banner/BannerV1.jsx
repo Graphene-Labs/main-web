@@ -8,8 +8,8 @@ const BannerV1 = () => {
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-lg-8 banner-one-item">
-                            <h4>Creative digital studio</h4>
-                            <h2>Build great <strong>portfolio</strong></h2>
+                            <h4>Tech Lab</h4>
+                            <h2>Improve your <strong>Opportunities</strong></h2>
                         </div>
                         <div className="col-lg-3 offset-lg-1 banner-one-item text-center">
                             <div className="curve-text">
