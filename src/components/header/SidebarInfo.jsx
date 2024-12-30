@@ -36,7 +36,7 @@ const SidebarInfo = ({ openInfoBar, closeInfoBar, isInfoOpen }) => {
                     </div>
                     <div className="widget">
                         <p>
-                            Digital marketing is the component of marketing that uses the Internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services.
+                        At Graphene Labs, we harness advanced digital technologies such as artificial intelligence, blockchain, and tailored web solutions to drive business transformation and market expansion. Our approach integrates various digital platforms, enabling businesses to streamline operations, secure data, and enhance customer engagement, ensuring they stay competitive and innovative in their industries.
                         </p>
                     </div>
                     <div className="widget address">
@@ -51,13 +51,13 @@ const SidebarInfo = ({ openInfoBar, closeInfoBar, isInfoOpen }) => {
                                 <li>
                                     <div className="content">
                                         <p>Email</p>
-                                        <strong>support@validtheme.com</strong>
+                                        <strong>hello@graphenelabs.io</strong>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="content">
                                         <p>Contact</p>
-                                        <strong>+44-20-7328-4499</strong>
+                                        <strong>+1 5614602879</strong>
                                     </div>
                                 </li>
                             </ul>
