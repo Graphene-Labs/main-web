@@ -1,66 +1,66 @@
 [
-    {
-        "id": 1,
-        "icon": "1.png",
-        "title": "Digital Marketing",
-        "title2": "Brand Creation",
-        "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
-        "number": "01"
-    },
-    {
-        "id": 2,
-        "icon": "2.png",
-        "title": "Growth Tracking",
-        "title2": "Web Campaigns",
-        "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
-        "number": "02"
-    },
-    {
-        "id": 3,
-        "icon": "3.png",
-        "title": "Product Branding",
-        "title2": "Creative Strategy",
-        "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
-        "number": "03"
-    },
-    {
-        "id": 4,
-        "icon": "4.png",
-        "title": "Enterprise Consult",
-        "title2": "Brand Strategy",
-        "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
-        "number": "04"
-    },
-    {
-        "id": 5,
-        "icon": "1.png",
-        "title": "Digital Marketing",
-        "title2": "Components Developing",
-        "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
-        "number": "01"
-    },
-    {
-        "id": 6,
-        "icon": "2.png",
-        "title": "Growth Tracking",
-        "title2": "Growth Tracking",
-        "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
-        "number": "02"
-    },
-    {
-        "id": 7,
-        "icon": "3.png",
-        "title": "Product Branding",
-        "title2": "Product Branding",
-        "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
-        "number": "03"
-    },
-    {
-        "id": 8,
-        "icon": "4.png",
-        "title": "Enterprise Consulting",
-        "title2": "Enterprise Consulting",
-        "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
-        "number": "04"
-    }
+  {
+    "id": 1,
+    "icon": "1.png",
+    "title": "Web Development",
+    "title2": "Brand Creation",
+    "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
+    "number": "01"
+  },
+  {
+    "id": 2,
+    "icon": "2.png",
+    "title": "Digital Transformation",
+    "title2": "Web Campaigns",
+    "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
+    "number": "02"
+  },
+  {
+    "id": 3,
+    "icon": "3.png",
+    "title": "Software Development",
+    "title2": "Creative Strategy",
+    "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
+    "number": "03"
+  },
+  {
+    "id": 4,
+    "icon": "4.png",
+    "title": "Artificial Intelligence",
+    "title2": "Brand Strategy",
+    "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
+    "number": "04"
+  },
+  {
+    "id": 5,
+    "icon": "1.png",
+    "title": "Web 3.0 & Blockchain",
+    "title2": "Components Developing",
+    "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
+    "number": "01"
+  },
+  {
+    "id": 6,
+    "icon": "2.png",
+    "title": "Growth Tracking",
+    "title2": "Growth Tracking",
+    "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
+    "number": "02"
+  },
+  {
+    "id": 7,
+    "icon": "3.png",
+    "title": "Product Branding",
+    "title2": "Product Branding",
+    "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
+    "number": "03"
+  },
+  {
+    "id": 8,
+    "icon": "4.png",
+    "title": "Enterprise Consulting",
+    "title2": "Enterprise Consulting",
+    "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
+    "number": "04"
+  }
 ]
