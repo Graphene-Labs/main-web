@@ -4,7 +4,7 @@ import ServiceV1Data from '@/assets/jsonData/services/ServiceV1Data.json'
 import ServicesDetailsContent from '@/components/services/ServicesDetailsContent';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Services Details"
+    title: "Graphene Labs - Services Details"
 };
 
 const ServicesDetails = ({ params }) => {

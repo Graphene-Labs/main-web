@@ -8,7 +8,7 @@ import WhyChooseV1 from '@/components/whyChoose/WhyChooseV1';
 import React from 'react';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Services 2"
+    title: "Graphene Labs - Services 2"
 };
 
 const Services2 = () => {
