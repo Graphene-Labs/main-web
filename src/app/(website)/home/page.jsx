@@ -15,7 +15,7 @@ import WhyChooseV1 from '@/components/whyChoose/WhyChooseV1';
 import React from 'react';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - React Next Js Template"
+    title: "Graphene Labs"
   };
 
 const Home1 = () => {
