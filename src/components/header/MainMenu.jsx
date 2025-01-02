@@ -5,7 +5,22 @@ const MainMenu = ({ toggleSubMenu }) => {
     return (
         <>
             <ul className="nav navbar-nav navbar-center">
+                <li><Link href="/about-us">About</Link></li>
                 <li className="dropdown">
+                    <Link href="/home2" className="dropdown-toggle">Solutions</Link>
+                    <ul className="dropdown-menu">
+                        <li><Link href="/services">Service Version One</Link></li>
+                        <li><Link href="/services-2">Service Version Two</Link></li>
+                        <li><Link href="/services-details/1">Marketing Strategy</Link></li>
+                        <li><Link href="/services-details/1">Enterprise Consulting</Link></li>
+                        <li><Link href="/services-details/1">Growth Tracking</Link></li>
+                        <li><Link href="/services-details/1">Social Media Marketing</Link></li>
+                        <li><Link href="/services-details/1">Keyword Research</Link></li>
+                    </ul>
+                </li>
+                <li><Link href="/blog-with-sidebar/1">Blog</Link></li>
+                <li><Link href="/project">Showcase</Link></li>
+                {/* <li className="dropdown">
                     <Link href="#" className="dropdown-toggle active" onClick={toggleSubMenu}>Home</Link>
                     <ul className="dropdown-menu">
                         <li><Link href="/home2">Portfolio Interactive <span className="badge">Trend</span></Link></li>
@@ -21,8 +36,8 @@ const MainMenu = ({ toggleSubMenu }) => {
                             </ul>
                         </li>
                     </ul>
-                </li>
-                <li className="dropdown">
+                </li> */}
+                {/* <li className="dropdown">
                     <Link href="#" className="dropdown-toggle" onClick={toggleSubMenu}>Pages</Link>
                     <ul className="dropdown-menu">
                         <li><Link href="/about-us">About Us</Link></li>
@@ -41,18 +56,6 @@ const MainMenu = ({ toggleSubMenu }) => {
                     </ul>
                 </li>
                 <li className="dropdown">
-                    <Link href="#" className="dropdown-toggle" onClick={toggleSubMenu}>Services</Link>
-                    <ul className="dropdown-menu">
-                        <li><Link href="/services">Service Version One</Link></li>
-                        <li><Link href="/services-2">Service Version Two</Link></li>
-                        <li><Link href="/services-details/1">Marketing Strategy</Link></li>
-                        <li><Link href="/services-details/1">Enterprise Consulting</Link></li>
-                        <li><Link href="/services-details/1">Growth Tracking</Link></li>
-                        <li><Link href="/services-details/1">Social Media Marketing</Link></li>
-                        <li><Link href="/services-details/1">Keyword Research</Link></li>
-                    </ul>
-                </li>
-                <li className="dropdown">
                     <Link href="#" className="dropdown-toggle" onClick={toggleSubMenu}>Blog</Link>
                     <ul className="dropdown-menu">
                         <li><Link href="/blog-standard">Blog Standard</Link></li>
@@ -62,7 +65,7 @@ const MainMenu = ({ toggleSubMenu }) => {
                         <li><Link href="/blog-single">Blog Single</Link></li>
                         <li><Link href="/blog-single-with-sidebar/1">Blog Single With Sidebar</Link></li>
                     </ul>
-                </li>
+                </li> */}
                 <li><Link href="/contact-us">contact</Link></li>
             </ul>
         </>

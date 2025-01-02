@@ -41,12 +41,14 @@ const HeaderV4 = () => {
                                 <ul>
                                     <li className="contact">
                                         <div className="call">
-                                            <div className="icon">
+                                            {/* <div className="icon">
                                                 <i className="fas fa-comments-alt-dollar"></i>
-                                            </div>
+                                            </div> */}
                                             <div className="info">
+                                                
                                                 <p>Have any Questions?</p>
-                                                <h5><a href="mailto:info@crysta.com">hello@graphenelabs.io</a></h5>
+                                                <Link className="btn btn-gradient btn-sm mt-50" href="/contact-us">Let's Meet</Link>
+                                                {/* <h5><a href="mailto:info@crysta.com">hello@graphenelabs.io</a></h5> */}
                                             </div>
                                         </div>
                                     </li>

@@ -3,10 +3,10 @@ import SingleAboutV2Accordion from './SingleAboutV2Accordion';
 import AboutV2Data from '@/assets/jsonData/about/AboutV2Data.json';
 import PopupVideo from '../video/PopupVideo';
 
-const AboutV2 = () => {
+const AboutV2 = ({ sectionClass }) => {
     return (
         <>
-            <div className="about-style-two-area relative">
+            <div className={`about-style-two-area ${sectionClass}`}>
                 <div className="about-style-two-thumb">
                     <div className="experience-style-one">
                         <div className="video-button">

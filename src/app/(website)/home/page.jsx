@@ -1,4 +1,5 @@
 import AboutV1 from '@/components/about/AboutV1';
+import AboutV2 from '@/components/about/AboutV2';
 import BannerV1 from '@/components/banner/BannerV1';
 import BannerZoomV1 from '@/components/banner/BannerZoomV1';
 import BlogV1 from '@/components/blog/BlogV1';
@@ -7,10 +8,14 @@ import FactV1 from '@/components/fact/FactV1';
 import FooterV1 from '@/components/footer/FooterV1';
 import HeaderV1 from '@/components/header/HeaderV1';
 import DarkLayout from '@/components/layouts/DarkLayout';
-import MultiSection from '@/components/multi/MultiSection';
 import PortfolioV1 from '@/components/portfolio/PortfolioV1';
 import ServicesV1 from '@/components/services/ServicesV1';
+import PriceV1 from '@/components/price/PriceV1';
+import ProjectV1 from '@/components/project/ProjectV1';
+import ServiceV3 from '@/components/services/ServiceV3';
+import TeamV1 from '@/components/team/TeamV1';
 import TestimonialV1 from '@/components/testimonial/TestimonialV1';
+import ClientV1 from '@/components/client/ClientV1';
 import WhyChooseV1 from '@/components/whyChoose/WhyChooseV1';
 import React from 'react';
 
@@ -29,12 +34,15 @@ const Home1 = () => {
                         <BannerZoomV1 />
                         <ServicesV1 />
                         <AboutV1 sectionClass="default-padding-bottom relative" />
-                        <PortfolioV1 sectionClass="bg-gray" />
+                        <ServiceV3 />
                         <FactV1 sectionClass="bg-gray" />
                         <BrandV1 sectionClass="bg-gradient text-light" />
-                        <WhyChooseV1 sectionClass="bg-gray" />
+                        <AboutV2 sectionClass="default-padding relative"/>
                         <TestimonialV1 />
-                        <MultiSection />
+                        <ClientV1 />
+                        <TeamV1 />
+                        <ProjectV1 />
+                        <PriceV1 />
                         <BlogV1 />
                         <DarkLayout />
                     </div>
