@@ -4,7 +4,7 @@ import PopupVideo from '../video/PopupVideo';
 const BannerV1 = () => {
     return (
         <>
-            <div className="banner-style-one">
+            <div className="banner-style-one min-h-[85vh]">
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-lg-8 banner-one-item">
