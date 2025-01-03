@@ -21,7 +21,7 @@ const ProjectDetailsContent = ({ PortfolioInfo }) => {
                                     <Link href="#" scroll={false}>{tag}</Link>
                                 </div>
                                 <h2 className="title">{title}</h2>
-                                <div className="project-author-details mt-50">
+                                <div className="project-author-details mt-20">
                                     <ul>
                                         <li>
                                             <div className="left-info">

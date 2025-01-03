@@ -22,7 +22,7 @@ const HeaderV1 = ({ logoWhite }) => {
         <>
             <header>
                 <nav className={`navbar mobile-sidenav navbar-sticky navbar-default validnavs navbar-fixed on menu-center no-full ${isMenuSticky ? 'sticked' : 'no-background'} ${isInfoOpen ? "pause-sticked" : ""} ${isOpen ? "navbar-responsive" : ""}`}>
-                    <div className="container d-flex justify-content-between align-items-center">
+                    <div className="container flex justify-content-between align-items-center">
 
                         <div className="navbar-header">
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={openMenu}>
@@ -38,12 +38,12 @@ const HeaderV1 = ({ logoWhite }) => {
                             </Link>
                         </div>
 
-                        <div className={`collapse navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
+                        <div className={`flex-1 navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
 
-                            {logoWhite ?
+                            {/* {logoWhite ?
                                 <Image src={logoLight} className="logo" alt="Logo" />
                                 : <Image src={logo} className="logo" alt="Logo" />
-                            }
+                            } */}
 
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={closeMenu}>
                                 <i className="fa fa-times"></i>

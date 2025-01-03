@@ -4893,7 +4893,7 @@ ul.list-simple li::after {
 /* About Style Two */
 
 .bg-dark .about-style-two-area {
-	background: var(--dark-secondary);
+	/* background: var(--dark-secondary); */
 }
 
 .about-style-two-thumb {

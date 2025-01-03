@@ -8,7 +8,7 @@ import TestimonialV1Data from '@/assets/jsonData/testimonial/TestimonialV1Data.j
 const TestimonialV1 = () => {
     return (
         <>
-            <div className="testimonial-style-one-area default-padding-top">
+            <div className="testimonial-style-one-area pt-20">
                 <div className="container">
                     <div className="heading-left">
                         <div className="row">

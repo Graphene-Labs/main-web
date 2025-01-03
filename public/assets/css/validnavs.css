@@ -61,7 +61,7 @@ Version: 1.0
 .navbar .container-md,
 .navbar .container-sm,
 .navbar .container-xl {
-	display: block;
+	/* display: block; */
 }
 
 .navbar {
