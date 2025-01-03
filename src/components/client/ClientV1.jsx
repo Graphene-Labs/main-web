@@ -19,14 +19,14 @@ const ClientV1 = () => {
                                 <div className="client-item-box">
                                     <div className="partner-box">
                                         {ClientV1Data.slice(0, 4).map(client =>
-                                            <div className="item" key={client.id}>
+                                            <div className="item flex justify-center items-center" key={client.id}>
                                                 <Image src={`/assets/img/icon/${client.icon}`} alt="Client Image" width={512} height={512} />
                                             </div>
                                         )}
                                     </div>
                                     <div className="partner-box">
                                         {ClientV1Data.slice(4, 7).map(client =>
-                                            <div className="item" key={client.id}>
+                                            <div className="item flex justify-center items-center" key={client.id}>
                                                 <i className={client.icon}></i>
                                             </div>
                                         )}

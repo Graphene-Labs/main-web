@@ -11,7 +11,7 @@ const SingleTestimonialV1 = ({ testimonial }) => {
                 <div className="provider">
                     <div className="thumb">
                         <Image src={`/assets/img/team/${thumb}`} alt="Image Not Found" width={800} height={800} />
-                        <div className="quote">
+                        <div className="quote flex justify-center items-center">
                             <Image src={`/assets/img/shape/${icon}`} alt="Image Not Found" width={394} height={383} />
                         </div>
                     </div>

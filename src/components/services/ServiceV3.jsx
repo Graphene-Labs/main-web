@@ -9,18 +9,21 @@ const ServiceV3 = () => {
         const linkElements = document.querySelectorAll('.service-hover-item');
         const linkHoverRevealElements = document.querySelectorAll('.service-hover-wrapper');
         const linkImages = document.querySelectorAll('.service-hover-placeholder');
+        const lottieFiles = document.querySelectorAll('.service-hover-lottie');
 
         const handleMouseEnter = (index, e) => {
             linkHoverRevealElements[index].style.opacity = 1;
-            linkHoverRevealElements[index].style.transform = `translate(-100%, -50%) rotate(-3deg)`;
-            linkImages[index].style.transform = 'scale(1, 1)';
-            linkHoverRevealElements[index].style.left = e.clientX + "px";
+            linkHoverRevealElements[index].style.transform = `translate(0%, 0%) rotate(-3deg)`;
+            // linkImages[index].style.transform = 'scale(1, 1)';
+            // lottieFiles.style.transform = 'scale(1, 1)';
+            linkHoverRevealElements[index].style.left = (e.clientX - 180) + "px";
         };
 
         const handleMouseLeave = (index) => {
             linkHoverRevealElements[index].style.opacity = 0;
             linkHoverRevealElements[index].style.transform = `translate(-50%, -50%) rotate(5deg)`;
-            linkImages[index].style.transform = 'scale(0.8, 0.8)';
+            // linkImages[index].style.transform = 'scale(0.8, 0.8)';
+            // lottieFiles.style.transform = 'scale(0.8, 0.8)';
         };
 
         linkElements.forEach((link, index) => {

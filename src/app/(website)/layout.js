@@ -10,9 +10,10 @@ import '@/assets/css/flaticon-set.css'
 
 import '@/assets/css/animate.min.css'
 import '@/assets/css/validnavs.css'
-import '@/assets/css/helper.css'
+
 import '@/assets/css/unit-test.css'
 import '@/assets/css/style.css'
+import './globals.css'
 
 import { Manrope } from 'next/font/google'
 import { ToastContainer } from 'react-toastify'

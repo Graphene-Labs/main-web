@@ -14,17 +14,20 @@ const FooterV1 = ({ logoWhite }) => {
                     <div className="container">
                         <div className="f-items default-padding-bottom pt-70 pt-xs-0">
                             <div className="row">
-                                <div className="col-lg-3 col-md-6 footer-item mt-50">
-                                    <div className="f-item about pr-50 pr-xs-0 pr-md-0">
-                                        <Link href="/">
-                                            {logoWhite ?
-                                                <Image className="logo" src={logoLight} alt="Logo" />
-                                                : <Image className="logo" src={logo} alt="Logo" />
-                                            }
-                                        </Link>
-                                        <p>
-                                            Are off under folly death writter transforming cold regular. Almost do am or limits of hearts.
-                                        </p>
+                                <div className="col-lg-3 col-md-6 footer-item mt-20">
+                                    <div className="flex flex-column h-[100%] justify-between">
+                                        <div>
+
+                                            <Link href="/">
+                                                {logoWhite ?
+                                                    <Image className="logo" src={logoLight} alt="Logo" />
+                                                    : <Image className="logo" src={logo} alt="Logo" />
+                                                }
+                                            </Link>
+                                            <p>
+                                                Are off under folly death writter transforming cold regular. Almost do am or limits of hearts.
+                                            </p>
+                                        </div>
                                         <div className="footer-social mt-30">
                                             <ul>
                                                 <SocialShare />
@@ -33,7 +36,7 @@ const FooterV1 = ({ logoWhite }) => {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-3 col-md-6 mt-50 footer-item pl-50 pl-md-15 pl-xs-15">
+                                <div className="col-lg-3 col-md-6 mt-20 footer-item pl-50 pl-md-15 pl-xs-15">
                                     <div className="f-item link">
                                         <h4 className="widget-title">Company</h4>
                                         <ul>
@@ -61,7 +64,7 @@ const FooterV1 = ({ logoWhite }) => {
 
 
 
-                                <div className="col-lg-3 col-md-6 footer-item  mt-50">
+                                <div className="col-lg-3 col-md-6 footer-item  mt-20">
                                     <div className="f-item contact">
                                         <h4 className="widget-title">Contact Info</h4>
                                         <ul>
@@ -87,7 +90,7 @@ const FooterV1 = ({ logoWhite }) => {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-3 col-md-6 footer-item mt-50">
+                                <div className="col-lg-3 col-md-6 footer-item mt-20">
                                     <div className="f-item newsletter">
                                         <h4 className="widget-title">Newsletter</h4>
                                         <p>

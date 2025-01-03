@@ -98,7 +98,7 @@ Sidebar heading:  22px 'Manrope', sans-serif
 	--box-shadow-secondary: 0 10px 30px 0 rgba(44, 130, 237, 0.4);
 	--box-shadow-regular: 0px 2px 12px 0px #e7e7e7;
 	--bg-gray: #f1f3f5;
-	--bg-gradient: linear-gradient(45deg, #02ebad 0%, #5a57fb 50%);
+	--bg-gradient: linear-gradient(45deg, #02ebad 0%, #5793fb 50%);
 }
 
 /* ============================================================== 
@@ -672,7 +672,7 @@ p {
 }
 
 .default-padding-bottom {
-	padding-bottom: 120px;
+	padding-bottom: 70px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -4893,7 +4893,7 @@ ul.list-simple li::after {
 /* About Style Two */
 
 .bg-dark .about-style-two-area {
-	background: var(--dark-secondary);
+	/* background: var(--dark-secondary); */
 }
 
 .about-style-two-thumb {
@@ -5795,7 +5795,7 @@ a.pf-btn i {
 }
 
 .client-items {
-	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	/* border-top: 1px solid rgba(255, 255, 255, 0.2); */
 	padding-top: 120px;
 }
 
@@ -6383,6 +6383,7 @@ ul.list-item li:first-child {
 
 .bg-dark .testimonial-style-one {
 	border-color: rgba(255, 255, 255, 0.2);
+	border: none;
 }
 
 .testimonial-style-one .rating {
@@ -6415,13 +6416,14 @@ ul.list-item li:first-child {
 }
 
 .testimonial-style-one-area .heading-left {
-	border-bottom: 1px solid #dddddd;
+	/* border-bottom: 1px solid #dddddd; */
+	padding-top: 80px;
 	padding-bottom: 50px;
 	margin: 0;
 }
 
 .bg-dark .testimonial-style-one-area .heading-left {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .testimonial-style-one .content p {
@@ -6433,11 +6435,12 @@ ul.list-item li:first-child {
 
 .testimonial-style-one .content {
 	border-left: 1px solid #dddddd;
-	padding: 120px 80px;
+	padding: 20px 40px;
 }
 
 .bg-dark .testimonial-style-one .content {
 	border-left: 1px solid rgba(255, 255, 255, 0.2);
+	border: none;
 }
 
 .testimonial-style-one .provider {
@@ -6753,9 +6756,9 @@ footer .f-item.about::after {
 }
 
 footer img.logo {
-	height: 60px;
+	height: 41px;
 	margin-bottom: 30px;
-	max-width: 253px;
+	max-width: fit-content;
 }
 
 footer .widget-title {

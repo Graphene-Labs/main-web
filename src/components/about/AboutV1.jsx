@@ -23,7 +23,7 @@ const AboutV1 = ({ sectionClass }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-5 col-lg-6 pl-80 pl-md-15 pl-xs-15">
+                        <div className="col-xl-5 col-lg-6 lg:pl-20 pl-md-15 pl-xs-15">
                             <div className="about-style-one">
                                 <h2 className="title mb-30">Creative process in our agency</h2>
                                 <p>
