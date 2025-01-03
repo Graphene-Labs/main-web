@@ -1,5 +1,5 @@
 import AboutV1 from '@/components/about/AboutV1';
-import AboutV2 from '@/components/about/AboutV2';
+import AboutV2 from '@/components/about/AboutV2.tsx';
 import BannerV1 from '@/components/banner/BannerV1';
 import BannerZoomV1 from '@/components/banner/BannerZoomV1';
 import BlogV1 from '@/components/blog/BlogV1';

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const SingleServiceV3 = ({ service }) => {
     const { id, icon, title, number, text, list1, list2, icon2, thumb } = service
@@ -29,7 +30,15 @@ const SingleServiceV3 = ({ service }) => {
                         </div>
                     </div>
                     <div className="service-hover-wrapper">
-                        <Image className="service-hover-placeholder" src={`/assets/img/portfolio/${thumb}`} alt="Image Not Found" width={337} height={337} />
+                        {/* <Image className="service-hover-placeholder" src={`/assets/img/portfolio/${thumb}`} alt="Image Not Found" width={337} height={337} /> */}
+                    
+                        <div className='service-hover-lottie'>
+                            <DotLottieReact
+                            src="https://lottie.host/f43441dc-bb4f-4456-b883-0142bab4c75e/19Ab50Xfuj.lottie"
+                            loop
+                            autoplay
+                            />
+                        </div>
                     </div>
                 </Link>
             </li>

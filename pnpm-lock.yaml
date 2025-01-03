@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@lottiefiles/dotlottie-react':
+        specifier: ^0.12.0
+        version: 0.12.0(react@19.0.0)
       '@payloadcms/db-postgres':
         specifier: 3.11.0
         version: 3.11.0(@types/react@19.0.1)(payload@3.11.0(graphql@16.10.0)(monaco-editor@0.52.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2))(react@19.0.0)
@@ -1146,6 +1149,14 @@ packages:
     resolution: {integrity: sha512-TiHNhu2VkhXN69V+fXVS3xjOQ6aLnheQUGwOAhuFkDPL3VLCb0yl2Mgydpayn+3Grwii4ZBHcF7oCC84GiU5bw==}
     peerDependencies:
       yjs: '>=13.5.22'
+
+  '@lottiefiles/dotlottie-react@0.12.0':
+    resolution: {integrity: sha512-33Tsd67vlotrm43R8oko30Krwyuqb0YdOLra7L5m2mVfrTvDPEDBt8jfjgiveoLJ0jG/FlTLiCPXi/vCaBSXrg==}
+    peerDependencies:
+      react: ^17 || ^18 || ^19
+
+  '@lottiefiles/dotlottie-web@0.38.2':
+    resolution: {integrity: sha512-01d+UjJ8NG7ZStYQxtb8FPzknzGmauG7gEkcH+wHfSdiSQJY9PoBNVSTB9V6F5hAnmFqOxaocTtd7TIEEnzMnA==}
 
   '@monaco-editor/loader@1.4.0':
     resolution: {integrity: sha512-00ioBig0x642hytVspPl7DbQyaSWRaolYie/UFNjoTdvoKPzo6xrXLhTk9ixgIKcLH5b5vDOjVNiGyY+uDCUlg==}
@@ -5622,6 +5633,13 @@ snapshots:
       '@lexical/selection': 0.20.0
       lexical: 0.20.0
       yjs: 13.6.21
+
+  '@lottiefiles/dotlottie-react@0.12.0(react@19.0.0)':
+    dependencies:
+      '@lottiefiles/dotlottie-web': 0.38.2
+      react: 19.0.0
+
+  '@lottiefiles/dotlottie-web@0.38.2': {}
 
   '@monaco-editor/loader@1.4.0(monaco-editor@0.52.2)':
     dependencies:

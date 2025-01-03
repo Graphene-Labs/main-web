@@ -8,7 +8,7 @@ import TestimonialV1Data from '@/assets/jsonData/testimonial/TestimonialV1Data.j
 const TestimonialV1 = () => {
     return (
         <>
-            <div className="testimonial-style-one-area pt-20">
+            <div className="testimonial-style-one-area pt-20 pb-20">
                 <div className="container">
                     <div className="heading-left">
                         <div className="row">
@@ -30,7 +30,7 @@ const TestimonialV1 = () => {
                                 modules={[Keyboard, Autoplay, Pagination, Navigation]}
                                 slidesPerView={1}
                                 autoplay={{
-                                    delay: 3000,
+                                    delay: 302200,
                                     stopOnLastSlide: false,
                                     disableOnInteraction: false,
                                 }}

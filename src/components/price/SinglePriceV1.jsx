@@ -8,7 +8,7 @@ const SinglePriceV1 = ({ price }) => {
         <>
             <div className={`pricing-style-one ${activeClass}`}>
                 <div className="left">
-                    <h4>{title}</h4>
+                    <h4 className='text-3xl'>{title}</h4>
                     <span>{subtitle}</span>
                     <Link className="btn mt-25 btn-sm circle btn-border light" href="/contact-us">Order Now</Link>
                 </div>

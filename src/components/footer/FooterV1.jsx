@@ -15,16 +15,19 @@ const FooterV1 = ({ logoWhite }) => {
                         <div className="f-items default-padding-bottom pt-70 pt-xs-0">
                             <div className="row">
                                 <div className="col-lg-3 col-md-6 footer-item mt-20">
-                                    <div className="f-item about pr-50 pr-xs-0 pr-md-0">
-                                        <Link href="/">
-                                            {logoWhite ?
-                                                <Image className="logo" src={logoLight} alt="Logo" />
-                                                : <Image className="logo" src={logo} alt="Logo" />
-                                            }
-                                        </Link>
-                                        <p>
-                                            Are off under folly death writter transforming cold regular. Almost do am or limits of hearts.
-                                        </p>
+                                    <div className="flex flex-column h-[100%] justify-between">
+                                        <div>
+
+                                            <Link href="/">
+                                                {logoWhite ?
+                                                    <Image className="logo" src={logoLight} alt="Logo" />
+                                                    : <Image className="logo" src={logo} alt="Logo" />
+                                                }
+                                            </Link>
+                                            <p>
+                                                Are off under folly death writter transforming cold regular. Almost do am or limits of hearts.
+                                            </p>
+                                        </div>
                                         <div className="footer-social mt-30">
                                             <ul>
                                                 <SocialShare />
