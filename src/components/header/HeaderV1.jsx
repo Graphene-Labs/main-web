@@ -51,7 +51,10 @@ const HeaderV1 = ({ logoWhite }) => {
                             <MainMenu isOpen={isOpen} closeMenu={closeMenu} toggleSubMenu={toggleSubMenu} />
                         </div>
 
-                        <SidebarInfo openInfoBar={openInfoBar} closeInfoBar={closeInfoBar} isInfoOpen={isInfoOpen} />
+                        {/* <SidebarInfo openInfoBar={openInfoBar} closeInfoBar={closeInfoBar} isInfoOpen={isInfoOpen} /> */}
+                        <div>
+                            <Link className="btn btn-gradient btn-sm" href="/contact-us">Let's Meet</Link>
+                        </div>
                     </div>
                     <div className={`overlay-screen ${isOpen ? "opened" : ""}`}
                         onClick={() => {

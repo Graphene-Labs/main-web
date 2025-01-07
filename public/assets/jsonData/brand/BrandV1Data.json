@@ -1,50 +1,34 @@
 [
     {
         "id": 1,
-        "department": "Marketing"
+        "department": "IA"
     },
     {
         "id": 2,
-        "department": "Branding"
+        "department": "ERP"
     },
     {
         "id": 3,
-        "department": "Design"
+        "department": "IoT"
     },
     {
         "id": 4,
-        "department": "Development"
+        "department": "Software"
     },
     {
         "id": 5,
-        "department": "Marketing"
+        "department": "Mobile"
     },
     {
         "id": 6,
-        "department": "Branding"
+        "department": "Cloud"
     },
     {
         "id": 7,
-        "department": "Design"
+        "department": "Blockchain"
     },
     {
         "id": 8,
-        "department": "Development"
-    },
-    {
-        "id": 9,
-        "department": "Marketing"
-    },
-    {
-        "id": 10,
-        "department": "Branding"
-    },
-    {
-        "id": 11,
-        "department": "Design"
-    },
-    {
-        "id": 12,
-        "department": "Development"
+        "department": "Web_3.0"
     }
 ]
