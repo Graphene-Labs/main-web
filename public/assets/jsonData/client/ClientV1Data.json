@@ -5,26 +5,26 @@
     },
     {
         "id": 2,
-        "icon": "figma.png"
+        "icon": "fab fa-vuejs"
     },
     {
         "id": 3,
-        "icon": "react.png"
+        "icon": "fab fa-react"
     },
     {
         "id": 4,
-        "icon": "wordpress.png"
+        "icon": "fab fa-wordpress"
     },
     {
         "id": 5,
-        "icon": "fab fa-digital-ocean"
+        "icon": "figma.png"
     },
     {
         "id": 6,
-        "icon": "fab fa-reddit"
+        "icon": "aws.png"
     },
     {
         "id": 7,
-        "icon": "fab fa-dropbox"
+        "icon": "fab fa-python"
     }
 ]

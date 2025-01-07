@@ -1,30 +1,30 @@
 [
-  {
-    "id": 1,
-    "end": 80,
-    "operator": "+",
-    "info": "Clients",
-    "delay": ""
-  },
-  {
-    "id": 2,
-    "end": 60,
-    "operator": "%",
-    "info": "Cost Reduction",
-    "delay": "0.5s"
-  },
-  {
-    "id": 3,
-    "end": "24/7",
-    "operator": "",
-    "info": "Availability",
-    "delay": ""
-  },
-  {
-    "id": 4,
-    "end": 12,
-    "operator": "",
-    "info": "Years Experience",
-    "delay": "0.5s"
-  }
+    {
+        "id": 1,
+        "end": 80,
+        "operator": "+",
+        "info": "Projects delivered",
+        "delay": ""
+    },
+    {
+        "id": 2,
+        "end": 100,
+        "operator": "%",
+        "info": "Uptime",
+        "delay": "0.5s"
+    },
+    {
+        "id": 3,
+        "end": "800",
+        "operator": "K USD",
+        "info": "Saved in operational expenses",
+        "delay": ""
+    },
+    {
+        "id": 4,
+        "end": 12,
+        "operator": "",
+        "info": "Years Experience",
+        "delay": "0.5s"
+    }
 ]

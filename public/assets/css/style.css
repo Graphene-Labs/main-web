@@ -3850,7 +3850,7 @@ a.btn-round-animation.dark {
 
 @media (min-width: 1200px) {
 	.banner-one-item h2 {
-		font-size: 120px;
+		font-size: 100px;
 	}
 }
 
@@ -3859,6 +3859,7 @@ a.btn-round-animation.dark {
 	color: transparent;
 	float: right;
 	font-weight: 700;
+	font-size: 120px;
 }
 
 .bg-dark .banner-one-item h2 strong {
@@ -5873,17 +5874,21 @@ a.pf-btn i {
 	color: #3b5998;
 }
 
-.client-items .partner-box .item i.fab.fa-digital-ocean {
-	color: #0080ff;
+.client-items .partner-box .item i.fab.fa-vuejs {
+	color: #42b883;
 }
 
-.client-items .partner-box .item i.fab.fa-dropbox {
-	color: #3d9ae8;
+.client-items .partner-box .item i.fab.fa-react {
+	color: #58c4dc
 }
 
-.client-items .partner-box .item i.fab.fa-reddit {
-	color: #ff4500;
+.client-items .partner-box .item i.fab.fa-wordpress {
+	color: #5098b9
 }
+.client-items .partner-box .item i.fab.fa-python {
+	color: #ffd343
+}
+
 
 /* ============================================================== 
     # Team Area 

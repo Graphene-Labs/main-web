@@ -4,7 +4,7 @@ import React from 'react';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const SingleServiceV3 = ({ service }) => {
-    const { id, icon, title, number, text, list1, list2, icon2, thumb } = service
+    const { id, icon, title, number, text, list, icon2, thumb } = service
 
     return (
         <>
@@ -19,10 +19,10 @@ const SingleServiceV3 = ({ service }) => {
                             <span>{number}</span>
                         </div>
                         <div className="details">
-                            <p>{text}</p>
                             <ul>
-                                <li>{list1}</li>
-                                <li>{list2}</li>
+                                {list.map((item)=> (
+                                    <li key={item}>{item}</li>
+                                ))}
                             </ul>
                         </div>
                         <div className="arrow">

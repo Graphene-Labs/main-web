@@ -12,8 +12,8 @@ const BannerV3 = () => {
                         <div className="col-lg-5">
                             <div className="fun-fact">
                                 <div className="counter">
-                                    <div className="timer" data-to="38" data-speed="2000">38</div>
-                                    <div className="operator">K</div>
+                                    <div className="timer" data-to="38" data-speed="2000">80</div>
+                                    {/* <div className="operator">K</div> */}
                                 </div>
                                 <span className="medium">Completed Projects</span>
                             </div>

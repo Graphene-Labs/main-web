@@ -1,46 +1,56 @@
 [
-  {
-    "id": 1,
-    "icon": "fas fa-vector-square",
-    "title": "Digital Transformation",
-    "number": "01",
-    "text": "Drive progress with our digital transformation services. Leveraging advanced technologies, we enhance your operations, boost efficiency, and ensure your business stays ahead. Transform your enterprise with us and lead the future of your industry.",
-    "list1": "Visual design focuses",
-    "list2": "Interaction design",
-    "icon2": "fas fa-arrow-right",
-    "thumb": "15.jpg"
-  },
-  {
-    "id": 2,
-    "icon": "fas fa-layer-group",
-    "title": "Process Automation",
-    "number": "02",
-    "text": "Optimize your operations with our process automation services. By integrating cutting-edge technology, we streamline workflows, increase efficiency, and reduce costs. Elevate your business performance and gain a competitive edge with our expert solutions.",
-    "list1": "Search box startup",
-    "list2": "Great Color scheme",
-    "icon2": "fas fa-arrow-right",
-    "thumb": "16.jpg"
-  },
-  {
-    "id": 3,
-    "icon": "fas fa-bullseye",
-    "title": "Business Alignment",
-    "number": "03",
-    "text": "Align your IT strategy with business goals through our expert business alignment services. We ensure that your technology investments drive your business objectives, optimizing processes and enhancing operational efficiency for sustained growth.",
-    "list1": "Logo sketch design",
-    "list2": "Color palette",
-    "icon2": "fas fa-arrow-right",
-    "thumb": "17.jpg"
-  },
-  {
-    "id": 4,
-    "icon": "fas fa-bullseye",
-    "title": "Business Intelligence",
-    "number": "04",
-    "text": "Empower your decision-making with our Business Intelligence services. We provide comprehensive data analysis tools and insights that drive smarter strategies, improve performance, and foster sustainable growth. Transform data into actionable intelligence with our expertise.",
-    "list1": "Logo sketch design",
-    "list2": "Color palette",
-    "icon2": "fas fa-arrow-right",
-    "thumb": "17.jpg"
-  }
+    {
+        "id": 1,
+        "icon": "fas fa-vector-square",
+        "title": "Digital Transformation",
+        "number": "01",
+        "text": "",
+        "list": [
+            "Digitize and optimize the work of crucial business units",
+            "Modernize legacy systems to overcome business challenges",
+            "Process remodelling",
+            "Time-to-market decrease"
+        ],
+        "icon2": "fas fa-arrow-right",
+        "thumb": "15.jpg"
+    },
+    {
+        "id": 2,
+        "icon": "fas fa-layer-group",
+        "title": "Process Automation",
+        "number": "02",
+        "text": "Optimize your operations with our process automation services. By integrating cutting-edge technology, we streamline workflows, increase efficiency, and reduce costs. Elevate your business performance and gain a competitive edge with our expert solutions.",
+        "list": [
+            "Digitize and optimize the work of crucial business units",
+            "Modernize legacy systems to overcome business challenges"
+        ],
+        "icon2": "fas fa-arrow-right",
+        "thumb": "16.jpg"
+    },
+    {
+        "id": 3,
+        "icon": "fas fa-bullseye",
+        "title": "Business Alignment",
+        "number": "03",
+        "text": "Align your IT strategy with business goals through our expert business alignment services. We ensure that your technology investments drive your business objectives, optimizing processes and enhancing operational efficiency for sustained growth.",
+        "list": [
+            "Digitize and optimize the work of crucial business units",
+            "Modernize legacy systems to overcome business challenges"
+        ],
+        "icon2": "fas fa-arrow-right",
+        "thumb": "17.jpg"
+    },
+    {
+        "id": 4,
+        "icon": "fas fa-bullseye",
+        "title": "Business Intelligence",
+        "number": "04",
+        "text": "Empower your decision-making with our Business Intelligence services. We provide comprehensive data analysis tools and insights that drive smarter strategies, improve performance, and foster sustainable growth. Transform data into actionable intelligence with our expertise.",
+        "list": [
+            "Digitize and optimize the work of crucial business units",
+            "Modernize legacy systems to overcome business challenges"
+        ],
+        "icon2": "fas fa-arrow-right",
+        "thumb": "17.jpg"
+    }
 ]

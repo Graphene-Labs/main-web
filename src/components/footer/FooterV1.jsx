@@ -106,7 +106,7 @@ const FooterV1 = ({ logoWhite }) => {
                     <div className="footer-bottom bg-dark text-light text-center">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-9 offset-lg-3">
+                                <div>
                                     <p>
                                         Copyright &copy; {(new Date().getFullYear())} Graphene Labs. All Rights Reserved
                                     </p>

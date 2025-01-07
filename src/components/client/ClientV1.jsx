@@ -18,18 +18,10 @@ const ClientV1 = () => {
                             <div className="col-lg-7">
                                 <div className="client-item-box">
                                     <div className="partner-box">
-                                        {ClientV1Data.slice(0, 4).map(client =>
-                                            <div className="item flex justify-center items-center" key={client.id}>
-                                                <Image src={`/assets/img/icon/${client.icon}`} alt="Client Image" width={512} height={512} />
-                                            </div>
-                                        )}
+                                        {ClientV1Data.slice(0, 4).map(client =><BrandIcon client={client}/>)}
                                     </div>
                                     <div className="partner-box">
-                                        {ClientV1Data.slice(4, 7).map(client =>
-                                            <div className="item flex justify-center items-center" key={client.id}>
-                                                <i className={client.icon}></i>
-                                            </div>
-                                        )}
+                                        {ClientV1Data.slice(4, 7).map(client =><BrandIcon client={client}/>)}
                                     </div>
                                 </div>
                             </div>
@@ -42,3 +34,21 @@ const ClientV1 = () => {
 };
 
 export default ClientV1;
+
+const BrandIcon = ({client}) => {
+    return (
+        
+        <div className="item flex justify-center items-center" key={client.id}>
+            {client.icon.match(/\.(jpg|jpeg|png|gif|svg)$/i) ? (
+                <Image 
+                    src={`/assets/img/icon/${client.icon}`} 
+                    alt="Client Image" 
+                    width={512} 
+                    height={512} 
+                />
+            ) : (
+            <i className={client.icon}></i>
+            )}
+        </div>
+    )
+}
