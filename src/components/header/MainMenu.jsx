@@ -18,8 +18,9 @@ const MainMenu = ({ toggleSubMenu }) => {
                         <li><Link href="/services-details/1">Keyword Research</Link></li>
                     </ul>
                 </li>
-                <li><Link href="/blog-with-sidebar/1">Blog</Link></li>
+                {/* <li><Link href="/blog-with-sidebar/1">Blog</Link></li> */}
                 <li><Link href="/project">Showcase</Link></li>
+                <li><Link href="/blog-with-sidebar/1">Careers</Link></li>
                 {/* <li className="dropdown">
                     <Link href="#" className="dropdown-toggle active" onClick={toggleSubMenu}>Home</Link>
                     <ul className="dropdown-menu">

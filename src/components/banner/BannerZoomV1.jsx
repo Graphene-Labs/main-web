@@ -33,7 +33,7 @@ const BannerZoomV1 = () => {
                                     <p>
                                     After 12 years of being part of the growth of technology, we are now focused on providing you with real and sustainable solutions.
                                     </p>
-                                    <Link className="btn-animation" href="/services"><i className="fas fa-arrow-right"></i> <span>Our Services</span></Link>
+                                    {/* <Link className="btn-animation" href="/services"><i className="fas fa-arrow-right"></i> <span>Our Services</span></Link> */}
                                 </div>
                             </div>
                         </div>

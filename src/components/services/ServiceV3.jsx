@@ -47,7 +47,7 @@ const ServiceV3 = () => {
                     <div className="row">
                         <div className="col-lg-8">
                             <div className="site-heading">
-                                <h4 className="sub-title">Services We Offer</h4>
+                                <h4 className="sub-title">Innovative Solutions for Your Business</h4>
                                 <h2 className="title">Turn Information <br /> Into Actionable Insights</h2>
                             </div>
                         </div>

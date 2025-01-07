@@ -24,7 +24,9 @@ const BannerV1 = () => {
                             </div> */}
                         </div>
                     </div>
-                    <Link className="btn mt-10 btn-gradient btn-md" href="/contact-us">Get a free consultation</Link>
+                    <div className="w-full text-right">
+                        <Link className="btn mt-10 btn-gradient btn-md" href="/contact-us">Get a free consultation</Link>
+                    </div>
                 </div>
             </div>
         </>

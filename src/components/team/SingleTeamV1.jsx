@@ -25,9 +25,9 @@ const SingleTeamV1 = ({ team }) => {
                 </div>
                 <div className="content">
                     <Link href="#" scroll={false}><i className={icon3}></i></Link>
-                    <div className="info">
+                    <div className="info max-w-[150px]">
                         <h4><Link href={`/team-details/${id}`}>{person}</Link></h4>
-                        <span>{designation}</span>
+                        <span className='text-xs'>{designation}</span>
                     </div>
                 </div>
             </div>

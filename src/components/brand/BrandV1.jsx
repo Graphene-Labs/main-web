@@ -16,6 +16,11 @@ const BrandV1 = ({ sectionClass }) => {
                                             <SingleBrandV1 brand={brand} key={brand.id} />
                                         )}
                                     </div>
+                                    <div className="brand-conetnt">
+                                        {BrandV1Data.map(brand =>
+                                            <SingleBrandV1 brand={brand} key={brand.id} />
+                                        )}
+                                    </div>
                                 </div>
                             </div>
                         </div>

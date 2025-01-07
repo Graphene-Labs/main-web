@@ -18,6 +18,7 @@ import TestimonialV1 from '@/components/testimonial/TestimonialV1';
 import ClientV1 from '@/components/client/ClientV1';
 import WhyChooseV1 from '@/components/whyChoose/WhyChooseV1';
 import React from 'react';
+import Head from 'next/head'
 
 export const metadata = {
     title: "Graphene Labs"
@@ -26,6 +27,13 @@ export const metadata = {
 const Home1 = () => {
     return (
         <>
+            <Head>
+                <script
+                    type="text/javascript"
+                    src="https://assets.calendly.com/assets/external/widget.js"
+                    async
+                ></script>
+            </Head>
             <div className="wrapper">
                 <div className="smooth-scroll-container">
                     <HeaderV1 logoWhite={true} />
@@ -37,13 +45,14 @@ const Home1 = () => {
                         <ServiceV3 />
                         <FactV1 sectionClass="bg-gray" />
                         <BrandV1 sectionClass="bg-gradient text-light" />
-                        <AboutV2 sectionClass="default-padding relative"/>
-                        <TestimonialV1 />
+                        <PriceV1 />
+                        {/* <BrandV1 sectionClass="bg-gradient text-light" /> */}
+                        {/* <TestimonialV1 /> */}
                         <ClientV1 />
                         <TeamV1 />
-                        <ProjectV1 />
-                        <PriceV1 />
-                        <BlogV1 />
+                        {/* <ProjectV1 /> */}
+                        <AboutV2 sectionClass="pt-4 pb-28 relative"/>
+                        {/* <BlogV1 /> */}
                         <DarkLayout />
                     </div>
                     <FooterV1 logoWhite={true} />
