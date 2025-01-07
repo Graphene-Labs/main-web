@@ -22,11 +22,11 @@
         "number": "02",
         "text": "Optimize your operations with our process automation services. By integrating cutting-edge technology, we streamline workflows, increase efficiency, and reduce costs. Elevate your business performance and gain a competitive edge with our expert solutions.",
         "list": [
-            "Automating routine tasks with bots to increase efficiency and reduce human error.",
-            "Designing and implementing workflows to streamline business processes and enhance productivity.",
-            "Utilizing artificial intelligence to optimize business processes and predict future trends.",
-            "Automating the capture, storage, and retrieval of business documents to improve accessibility and compliance.",
-            "Implementing and customizing CRM systems to automate marketing, sales, and customer service operations."
+            "Robotic Process Automation (RPA).",
+            "Workflow Automation.",
+            "AI-Driven Process Optimization.",
+            "Document Management Automation.",
+            "Customer Relationship Management (CRM) Automation."
         ],
         "icon2": "fas fa-arrow-right",
         "thumb": "16.jpg"
@@ -38,11 +38,11 @@
         "number": "03",
         "text": "Align your IT strategy with business goals through our expert business alignment services. We ensure that your technology investments drive your business objectives, optimizing processes and enhancing operational efficiency for sustained growth.",
         "list": [
-            "Establishing a structure that aligns IT strategies and business objectives.",
-            "Facilitating smooth transitions for technology implementations and business process adjustments.",
-            "Developing and integrating systems to monitor and enhance business performance.",
-            "Planning the future technology needs to support business growth and adaptation.",
-            "Ensuring that technology implementations comply with relevant laws and regulations while managing associated risks."
+            "IT Governance Framework.",
+            "Change Management.",
+            "Performance Management Systems.",
+            "Technology Roadmapping.",
+            "Compliance and Risk Management."
         ],
         "icon2": "fas fa-arrow-right",
         "thumb": "17.jpg"
@@ -54,11 +54,11 @@
         "number": "04",
         "text": "Empower your decision-making with our Business Intelligence services. We provide comprehensive data analysis tools and insights that drive smarter strategies, improve performance, and foster sustainable growth. Transform data into actionable intelligence with our expertise.",
         "list": [
-            "Creating centralized repositories to store and manage enterprise data.",
-            "Providing tools for detailed analysis and visual reporting of business data.",
-            "Designing interactive dashboards to provide real-time insights into business metrics.",
-            "Applying statistical models and forecasts to predict future business conditions and outcomes.",
-            "Implementing systems to process and analyze large datasets to uncover hidden patterns, correlations, and insights."
+            "Data Warehousing.",
+            "Analytics and Reporting Tools.",
+            "Dashboards and Visualization.",
+            "Predictive Analytics.",
+            "Big Data Solutions."
         ],
         "icon2": "fas fa-arrow-right",
         "thumb": "17.jpg"
