@@ -9,58 +9,26 @@
   },
   {
     "id": 2,
-    "icon": "2.png",
-    "title": "Digital Transformation",
-    "title2": "Web Campaigns",
-    "text": "Embrace the future with our digital transformation services. We streamline operations and innovate solutions to propel your business into the digital age.",
-    "number": "02"
-  },
-  {
-    "id": 3,
     "icon": "3.png",
     "title": "Software Development",
     "title2": "Creative Strategy",
     "text": "Unlock custom software solutions tailored to your needs. Our development expertise brings your ideas to life, enhancing efficiency and driving growth.",
-    "number": "03"
+    "number": "02"
   },
   {
-    "id": 4,
+    "id": 3,
     "icon": "4.png",
     "title": "Artificial Intelligence",
     "title2": "Brand Strategy",
     "text": "Elevate your business strategy with our AI services. From automation to analytics, harness AI's power to innovate and streamline your operations effectively.",
-    "number": "04"
+    "number": "03"
   },
   {
-    "id": 5,
+    "id": 4,
     "icon": "1.png",
     "title": "Web 3.0 & Blockchain",
     "title2": "Components Developing",
     "text": "Revolutionize your operations with our Web3.0 and blockchain services. Secure, transparent, and efficient solutions to empower your digital ecosystem.",
-    "number": "05"
-  },
-  {
-    "id": 6,
-    "icon": "2.png",
-    "title": "Growth Tracking",
-    "title2": "Growth Tracking",
-    "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
-    "number": "06"
-  },
-  {
-    "id": 7,
-    "icon": "3.png",
-    "title": "Product Branding",
-    "title2": "Product Branding",
-    "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
-    "number": "07"
-  },
-  {
-    "id": 8,
-    "icon": "4.png",
-    "title": "Enterprise Consulting",
-    "title2": "Enterprise Consulting",
-    "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
-    "number": "08"
+    "number": "04"
   }
 ]
