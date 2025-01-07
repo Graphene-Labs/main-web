@@ -1,34 +1,74 @@
 [
-  {
-    "id": 1,
-    "icon": "1.png",
-    "title": "Web Development",
-    "title2": "Brand Creation",
-    "text": "Revitalize your online presence with our expert web design services. Tailored for seamless user experiences, our designs ensure your brand shines uniquely and effectively.",
-    "number": "01"
-  },
-  {
-    "id": 2,
-    "icon": "3.png",
-    "title": "Software Development",
-    "title2": "Creative Strategy",
-    "text": "Unlock custom software solutions tailored to your needs. Our development expertise brings your ideas to life, enhancing efficiency and driving growth.",
-    "number": "02"
-  },
-  {
-    "id": 3,
-    "icon": "4.png",
-    "title": "Artificial Intelligence",
-    "title2": "Brand Strategy",
-    "text": "Elevate your business strategy with our AI services. From automation to analytics, harness AI's power to innovate and streamline your operations effectively.",
-    "number": "03"
-  },
-  {
-    "id": 4,
-    "icon": "1.png",
-    "title": "Web 3.0 & Blockchain",
-    "title2": "Components Developing",
-    "text": "Revolutionize your operations with our Web3.0 and blockchain services. Secure, transparent, and efficient solutions to empower your digital ecosystem.",
-    "number": "04"
-  }
+    {
+        "id": 1,
+        "icon": "1.png",
+        "title": "Web Development",
+        "title2": "Brand Creation",
+        "text": "Revitalize your online presence with our expert web design services. Tailored for seamless user experiences, our designs ensure your brand shines uniquely and effectively.",
+        "number": "01"
+    },
+    {
+        "id": 2,
+        "icon": "3.png",
+        "title": "Software Development",
+        "title2": "Creative Strategy",
+        "text": "Unlock custom software solutions tailored to your needs. Our development expertise brings your ideas to life, enhancing efficiency and driving growth.",
+        "number": "02"
+    },
+    {
+        "id": 3,
+        "icon": "4.png",
+        "title": "Artificial Intelligence",
+        "title2": "Brand Strategy",
+        "text": "Elevate your business strategy with our AI services. From automation to analytics, harness AI's power to innovate and streamline your operations effectively.",
+        "number": "03"
+    },
+    {
+        "id": 4,
+        "icon": "1.png",
+        "title": "Web 3.0 & Blockchain",
+        "title2": "Components Developing",
+        "text": "Revolutionize your operations with our Web3.0 and blockchain services. Secure, transparent, and efficient solutions to empower your digital ecosystem.",
+        "number": "04"
+    },
+    {
+        "id": 5,
+        "icon": "1.png",
+        "title": "UX / UI Design",
+        "title2": "Components Developing",
+        "text": "We craft intuitive and visually compelling interfaces that improve user experience, drive satisfaction, and boost conversion rates. Elevate your digital presence with designs that resonate and perform.",
+        "number": "05"
+    },
+    {
+        "id": 6,
+        "icon": "1.png",
+        "title": "Enterprise Consulting",
+        "title2": "Components Developing",
+        "text": "We provide expert guidance to optimize operations, drive innovation, and manage change effectively. Partner with us to navigate complex challenges and achieve sustainable growth.",
+        "number": "06"
+    },
+    {
+        "id": 7,
+        "icon": "1.png",
+        "title": "Big Data",
+        "title2": "Components Developing",
+        "text": "We specialize in managing vast datasets, applying advanced analytics to reveal trends, optimize operations, and predict outcomes. Transform your data into a competitive advantage.",
+        "number": "07"
+    },
+    {
+        "id": 8,
+        "icon": "1.png",
+        "title": "Cybersecurity",
+        "title2": "Components Developing",
+        "text": "We specialize in protecting networks, systems, and data from cyber threats. Enhance your security posture with our robust solutions and expert guidance to mitigate risks and ensure business continuity.",
+        "number": "08"
+    },
+    {
+        "id": 9,
+        "icon": "1.png",
+        "title": "IoT",
+        "title2": "Components Developing",
+        "text": "We connect and automate devices across your network, enabling real-time data collection and intelligent automation. Harness the power of IoT to increase efficiency, enhance insights, and drive innovation in your business.",
+        "number": "09"
+    }
 ]

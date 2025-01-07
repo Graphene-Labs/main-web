@@ -29,9 +29,9 @@ const BannerZoomV1 = () => {
                         <div className="col-lg-6 offset-lg-6">
                             <div className="experience-box">
                                 <div className="inner-content">
-                                    <h2><strong>28+</strong> Years of experience</h2>
+                                    <h2><strong>12+</strong> Years of experience</h2>
                                     <p>
-                                        These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled data structure.
+                                    After 12 years of being part of the growth of technology, we are now focused on providing you with real and sustainable solutions.
                                     </p>
                                     <Link className="btn-animation" href="/services"><i className="fas fa-arrow-right"></i> <span>Our Services</span></Link>
                                 </div>
