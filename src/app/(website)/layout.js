@@ -20,23 +20,26 @@ import { ToastContainer } from 'react-toastify'
 import Dependency from '@/components/utilities/Dependency'
 
 const manrope = Manrope({
-  subsets: ['latin'],
-  display: 'swap',
+    subsets: ['latin'],
+    display: 'swap',
 })
 
 export const metadata = {
-  title: 'Graphene Labs - Digital Transformation',
+    title: 'Graphene Labs - Digital Transformation',
 }
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className={`${manrope.className}`}>
-        <ToastContainer />
-        <Dependency />
-        {children}
-        <div id="modal-root-content" />
-      </body>
-    </html>
-  )
+    return (
+        <html lang="en">
+            <head>
+                <link rel="icon" href="/assets/img/favicon.png" type="image/png" />
+            </head>
+            <body className={`${manrope.className}`}>
+                <ToastContainer />
+                <Dependency />
+                {children}
+                <div id="modal-root-content" />
+            </body>
+        </html>
+    )
 }

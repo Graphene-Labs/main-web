@@ -10,8 +10,8 @@ const ClientV1 = () => {
                     <div className="client-items">
                         <div className="row align-center">
                             <div className="col-lg-5">
-                                <h5>Join over 40,000 businesses worldwide.</h5>
-                                <h2 className="title">Working great with top platforms</h2>
+                                <h5>Empower your business with world-class innovation.</h5>
+                                <h2 className="title">Exceptional talent, transformative technology</h2>
                             </div>
                             <div className="col-lg-7">
                                 <div className="client-item-box">

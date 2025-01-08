@@ -62,6 +62,26 @@ const FooterV1 = ({ logoWhite }) => {
                                     </div>
                                 </div>
 
+                                <div className="col-lg-3 col-md-6 mt-20 footer-item pl-50 pl-md-15 pl-xs-15">
+                                    <div className="f-item link">
+                                        <h4 className="widget-title">Solutions</h4>
+                                        <ul>
+                                            <li>
+                                                <Link href="/about-us">Digital Transformation</Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/about-us">Process Automation</Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/contact-us">Enterprise-Wide Business Intelligence</Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/contact-us">Sales and Commercial Business Intelligence</Link>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
 
 
                                 <div className="col-lg-3 col-md-6 footer-item  mt-20">
@@ -87,16 +107,6 @@ const FooterV1 = ({ logoWhite }) => {
                                                 </div>
                                             </li>
                                         </ul>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-3 col-md-6 footer-item mt-20">
-                                    <div className="f-item newsletter">
-                                        <h4 className="widget-title">Newsletter</h4>
-                                        <p>
-                                            Join our subscribers list to get the instant latest news and special offers.
-                                        </p>
-                                        <FooterNewsLetter />
                                     </div>
                                 </div>
                             </div>

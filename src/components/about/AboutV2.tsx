@@ -62,7 +62,7 @@ const AboutV2 = ({ sectionClass }) => {
                                     <div className="space-y-4 details" id="faqAccordion">
                                         <b>LOOKING FOR A RELIABLE SOFTWARE DEVELOPMENT COMPANY?</b>
                                         <p>
-                                            Build a high-quality FinTech product designed for
+                                            Build a high-quality Indultrial product designed for
                                             seamless scaling, active user acquisition, and stable
                                             performance under high loads with Graphene Growth Labs
                                         </p>

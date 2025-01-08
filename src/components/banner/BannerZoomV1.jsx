@@ -31,7 +31,7 @@ const BannerZoomV1 = () => {
                                 <div className="inner-content">
                                     <h2><strong>12+</strong> Years of experience</h2>
                                     <p>
-                                    After 12 years of being part of the growth of technology, we are now focused on providing you with real and sustainable solutions.
+                                    With 12 years of experience in technology, we now focus on delivering real, sustainable solutions. As experts in industrial, logistics, manufacturing, construction, energy, and mining sectors, we leverage innovation to optimize processes and drive long-term success.
                                     </p>
                                     {/* <Link className="btn-animation" href="/services"><i className="fas fa-arrow-right"></i> <span>Our Services</span></Link> */}
                                 </div>

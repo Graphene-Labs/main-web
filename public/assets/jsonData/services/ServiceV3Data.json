@@ -34,7 +34,7 @@
     {
         "id": 3,
         "icon": "fas fa-bullseye",
-        "title": "Business Alignment",
+        "title": "Enterprise-Wide Business Intelligence",
         "number": "03",
         "text": "Align your IT strategy with business goals through our expert business alignment services. We ensure that your technology investments drive your business objectives, optimizing processes and enhancing operational efficiency for sustained growth.",
         "list": [
@@ -50,7 +50,7 @@
     {
         "id": 4,
         "icon": "fas fa-bullseye",
-        "title": "Business Intelligence",
+        "title": "Sales and Commercial Business Intelligence",
         "number": "04",
         "text": "Empower your decision-making with our Business Intelligence services. We provide comprehensive data analysis tools and insights that drive smarter strategies, improve performance, and foster sustainable growth. Transform data into actionable intelligence with our expertise.",
         "list": [
