@@ -91,7 +91,7 @@ const FooterV1 = ({ logoWhite }) => {
                                             <li>
                                                 <div className="content">
                                                     <strong>Address:</strong>
-                                                    5919 Trussville Crossings Pkwy, Birmingham
+                                                    1007 Ventnor G, Deerfield Beach, FL
                                                 </div>
                                             </li>
                                             <li>
@@ -103,7 +103,7 @@ const FooterV1 = ({ logoWhite }) => {
                                             <li>
                                                 <div className="content">
                                                     <strong>Phone:</strong>
-                                                    <a href="tel:+1 5614602879">+1 5614602879</a>
+                                                    <a href="tel:+1 5614602879">+1(561)4602879</a>
                                                 </div>
                                             </li>
                                         </ul>
