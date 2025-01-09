@@ -48,8 +48,8 @@ const AboutV2 = ({ sectionClass }) => {
                     </div> */}
                     <div
                         className="calendly-inline-widget"
-                        data-url="https://calendly.com/harol-rodriguez28/30min?hide_event_type_details=1&hide_gdpr_banner=1"
-                        style={{ minWidth: '320px', height: '600px' }}
+                        data-url="https://calendly.com/hello-graphenelabs/30min?hide_event_type_details=1&hide_gdpr_banner=1"
+                        style={{ minWidth: '320px', height: '700px' }}
                     ></div>
                 </div>
                 <div className="container flex-1">
