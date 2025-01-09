@@ -1,4 +1,3 @@
-'use client'
 import { formatDateTime } from 'src/utilities/formatDateTime'
 import React from 'react'
 

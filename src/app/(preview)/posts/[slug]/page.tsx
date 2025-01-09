@@ -58,7 +58,15 @@ export default async function Post({ params: paramsPromise }: Args) {
             {/* Allows redirects for valid pages too */}
             {/* <PayloadRedirects disableNotFound url={url} /> */}
 
-            {typeof window !== 'undefined' && draft && <LivePreviewListener />}
+            {/* <p>AUA!mm</p> */}
+            <pre>{draft.toString()}</pre>
+            {/* <pre>{JSON.stringify(typeof window)}</pre> */}
+            {draft && (
+                <>
+                    <p>AUA!</p>
+                    <LivePreviewListener />
+                </>
+            )}
 
             <PostHero post={post} />
             <pre>{JSON.stringify(post)}</pre>

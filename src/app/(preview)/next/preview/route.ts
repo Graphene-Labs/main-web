@@ -39,7 +39,7 @@ export async function GET(
             return new Response('No path provided', { status: 404 })
         }
 
-        console.log('aua', path)
+        // console.log('aua', path)
 
         if (!path.startsWith('/')) {
             return new Response('This endpoint can only be used for internal previews', {

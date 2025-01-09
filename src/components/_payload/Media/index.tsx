@@ -1,4 +1,3 @@
-'use client'
 import React, { Fragment } from 'react'
 
 import type { Props } from './types'
@@ -27,7 +26,7 @@ export const Media: React.FC<Props> = (props) => {
                   }
                 : {})}
         >
-            <pre>aua{JSON.stringify(props)}</pre>
+            {/* <pre>aua{JSON.stringify(props)}</pre> */}
             {isVideo ? <VideoMedia {...props} /> : <ImageMedia {...props} />}
         </Tag>
     )
