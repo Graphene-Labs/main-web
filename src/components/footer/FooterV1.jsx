@@ -25,7 +25,7 @@ const FooterV1 = ({ logoWhite }) => {
                                                 }
                                             </Link>
                                             <p>
-                                            Evolving to the next level is closer than you think.
+                                            Evolving to the next level is closer than you think. Let us help you get there.
                                             </p>
                                         </div>
                                         <div className="footer-social mt-30">
