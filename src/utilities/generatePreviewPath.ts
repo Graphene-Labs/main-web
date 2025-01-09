@@ -31,7 +31,7 @@ export const generatePreviewPath = ({ collection, slug, req }: Props) => {
     const protocol = isProduction ? 'https:' : req.protocol
 
     const url = `${protocol}//${req.host}/next/preview?${encodedParams.toString()}`
-    console.log('auaso', url, req)
+    // console.log('auaso', url, req)
 
     return url
 }

@@ -1,3 +1,4 @@
+'use client'
 import { formatDateTime } from 'src/utilities/formatDateTime'
 import React from 'react'
 
@@ -5,6 +6,8 @@ import type { Post } from '@/payload-types'
 
 import { Media } from '@/components/_payload/Media'
 import { formatAuthors } from '@/utilities/formatAuthors'
+import NextImage from 'next/image'
+import { cn } from '@/utilities/cn'
 
 export const PostHero: React.FC<{
     post: Post
@@ -19,7 +22,7 @@ export const PostHero: React.FC<{
             <div className="container z-10 relative lg:grid lg:grid-cols-[1fr_48rem_1fr] text-white pb-8">
                 <div className="col-start-1 col-span-1 md:col-start-2 md:col-span-2">
                     <div className="uppercase text-sm mb-6">
-                        {categories?.map((category, index) => {
+                        {/* {categories?.map((category, index) => {
                             if (typeof category === 'object' && category !== null) {
                                 const { title: categoryTitle } = category
 
@@ -35,7 +38,7 @@ export const PostHero: React.FC<{
                                 )
                             }
                             return null
-                        })}
+                        })} */}
                     </div>
 
                     <div className="">
@@ -62,11 +65,39 @@ export const PostHero: React.FC<{
                     </div>
                 </div>
             </div>
+            {/* <div className="min-h-[60vh]">
+                <div className="absolute left-0">
+                    <p>holi</p>
+                    <pre>{JSON.stringify(heroImage.alt)}</pre>
+                    <pre>{JSON.stringify(heroImage.filename)}</pre>
+                    <pre>{JSON.stringify(heroImage.height)}</pre>
+                    <pre>{JSON.stringify(heroImage.url)}</pre>
+                    <pre>{JSON.stringify(heroImage.width)}</pre>
+
+                    <picture>
+                        <NextImage
+                            alt={heroImage.alt || ''}
+                            // className={cn(imgClassName)}
+                            // fill={fill}
+                            height={heroImage.height}
+                            // placeholder="blur"
+                            // blurDataURL={placeholderBlur}
+                            // priority={priority}
+                            quality={100}
+                            // loading={loading}
+                            // sizes={sizes}
+                            src={heroImage.url}
+                            width={heroImage.width}
+                        />
+                    </picture>
+                </div>
+            </div> */}
             <div className="min-h-[80vh] select-none">
                 {heroImage && typeof heroImage !== 'string' && (
                     <Media fill priority imgClassName="-z-10 object-cover" resource={heroImage} />
                 )}
-                <div className="absolute pointer-events-none left-0 bottom-0 w-full h-1/2 bg-gradient-to-t from-black to-transparent" />
+
+                {/* <div className="absolute pointer-events-none left-0 bottom-0 w-full h-1/2 bg-gradient-to-t from-black to-transparent" /> */}
             </div>
         </div>
     )

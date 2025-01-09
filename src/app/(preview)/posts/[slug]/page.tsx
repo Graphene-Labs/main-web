@@ -48,16 +48,17 @@ export default async function Post({ params: paramsPromise }: Args) {
     const url = '/posts/' + slug
     const post = await queryPostBySlug({ slug })
 
-    // if (!post) return <PayloadRedirects url={url} />
+    // console.log('aua maximo', post)
 
+    // if (!post) return <PayloadRedirects url={url} />
     return (
         <article className="pt-16 pb-16">
-            <PageClient />
+            {/* <PageClient /> */}
 
             {/* Allows redirects for valid pages too */}
             {/* <PayloadRedirects disableNotFound url={url} /> */}
 
-            {draft && <LivePreviewListener />}
+            {typeof window !== 'undefined' && draft && <LivePreviewListener />}
 
             <PostHero post={post} />
             <pre>{JSON.stringify(post)}</pre>
@@ -69,12 +70,12 @@ export default async function Post({ params: paramsPromise }: Args) {
                         data={post.content}
                         enableGutter={false}
                     /> */}
-                    {post.relatedPosts && post.relatedPosts.length > 0 && (
+                    {/* {post.relatedPosts && post.relatedPosts.length > 0 && (
                         <RelatedPosts
                             className="mt-12 max-w-[52rem] lg:grid lg:grid-cols-subgrid col-start-1 col-span-3 grid-rows-[2fr]"
                             docs={post.relatedPosts.filter((post) => typeof post === 'object')}
                         />
-                    )}
+                    )} */}
                 </div>
             </div>
         </article>
@@ -106,5 +107,5 @@ const queryPostBySlug = cache(async ({ slug }: { slug: string }) => {
         },
     })
 
-    return result.docs?.[0] || null
+    return result.docs?.[0] || { content: '', relatedPosts: [] }
 })
