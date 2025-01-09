@@ -25,7 +25,7 @@ const FooterV1 = ({ logoWhite }) => {
                                                 }
                                             </Link>
                                             <p>
-                                                Are off under folly death writter transforming cold regular. Almost do am or limits of hearts.
+                                            Evolving to the next level is closer than you think.
                                             </p>
                                         </div>
                                         <div className="footer-social mt-30">
