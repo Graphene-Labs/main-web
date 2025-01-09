@@ -18,6 +18,7 @@ import './globals.css'
 import { Manrope } from 'next/font/google'
 import { ToastContainer } from 'react-toastify'
 import Dependency from '@/components/utilities/Dependency'
+import { draftMode } from 'next/headers'
 
 const manrope = Manrope({
     subsets: ['latin'],
@@ -28,7 +29,9 @@ export const metadata = {
     title: 'Graphene Labs - Digital Transformation',
 }
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+    const { isEnabled } = await draftMode()
+
     return (
         <html lang="en">
             <head>

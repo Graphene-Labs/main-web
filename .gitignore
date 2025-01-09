@@ -12,6 +12,8 @@
 # testing
 /coverage
 
+/public/media
+
 # next.js
 /.next/
 /out/
