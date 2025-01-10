@@ -41,22 +41,22 @@ const FooterV1 = ({ logoWhite }) => {
                                         <h4 className="widget-title">Company</h4>
                                         <ul>
                                             <li>
-                                                <Link href="/about-us">Company Profile</Link>
+                                                <Link href="#">Company Profile</Link>
                                             </li>
                                             <li>
-                                                <Link href="/about-us">About</Link>
+                                                <Link href="#">About</Link>
                                             </li>
                                             <li>
-                                                <Link href="/contact-us">Help Center</Link>
+                                                <Link href="#">Help Center</Link>
                                             </li>
                                             <li>
-                                                <Link href="/contact-us">Career</Link>
+                                                <Link href="#">Career</Link>
                                             </li>
                                             <li>
-                                                <Link href="/about-us">Features</Link>
+                                                <Link href="#">Features</Link>
                                             </li>
                                             <li>
-                                                <Link href="/contact-us">Contact</Link>
+                                                <Link href="#">Contact</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -67,16 +67,16 @@ const FooterV1 = ({ logoWhite }) => {
                                         <h4 className="widget-title">Solutions</h4>
                                         <ul>
                                             <li>
-                                                <Link href="/about-us">Digital Transformation</Link>
+                                                <Link href="#">Digital Transformation</Link>
                                             </li>
                                             <li>
-                                                <Link href="/about-us">Process Automation</Link>
+                                                <Link href="#">Process Automation</Link>
                                             </li>
                                             <li>
-                                                <Link href="/contact-us">Enterprise-Wide Business Intelligence</Link>
+                                                <Link href="#">Enterprise-Wide Business Intelligence</Link>
                                             </li>
                                             <li>
-                                                <Link href="/contact-us">Sales and Commercial Business Intelligence</Link>
+                                                <Link href="#">Sales and Commercial Business Intelligence</Link>
                                             </li>
                                         </ul>
                                     </div>

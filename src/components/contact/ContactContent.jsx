@@ -1,8 +1,21 @@
-import React from 'react';
+'use client'
+import React, { useEffect, useState } from 'react'
 import ContactForm from './ContactForm';
 import SocialShare from '../utilities/SocialShare';
 
 const ContactContent = () => {
+    useEffect(() => {
+        // Cargar el script de Calendly una vez que el componente se monta
+        const script = document.createElement('script')
+        script.src = 'https://assets.calendly.com/assets/external/widget.js'
+        script.async = true
+        document.body.appendChild(script)
+
+        return () => {
+            document.body.removeChild(script) // Limpiar el script cuando el componente se desmonta
+        }
+    }, []) // El efecto solo se ejecuta una vez
+
     return (
         <>
             <div className="contact-area contact-page overflow-hidden default-padding">
@@ -12,13 +25,13 @@ const ContactContent = () => {
                             <div className="contact-style-one-info">
                                 <ul className="contact-address bg-dark text-light" style={{ backgroundImage: "url(assets/img/shape/globe.png)" }}>
                                     <li>
-                                        <a className="phone-link" href="tel:+1 5614602879">+1 5614602879</a>
+                                        <a className="phone-link" href="tel:+1 5614602879">+1(561)4602879</a>
                                     </li>
                                     <li>
                                         <div className="info">
                                             <h4>Location</h4>
                                             <p>
-                                                55 Main Street, The Grand Avenue <br /> 2nd Block, New York City
+                                            1007 Ventnor G, Deerfield Beach, FL
                                             </p>
                                         </div>
                                     </li>
@@ -39,11 +52,18 @@ const ContactContent = () => {
                             </div>
                         </div>
                         <div className="col-tact-stye-one col-lg-7 pl-60 pl-md-15 pl-xs-15 mt-md-50 mt-xs-50">
-                            <div className="contact-form-style-one">
+                            <h4 className="sub-title">Have Questions?</h4>
+                            <h2 className="title">Schedule a Call</h2>
+                            <div
+                                className="calendly-inline-widget"
+                                data-url="https://calendly.com/hello-graphenelabs/30min?hide_event_type_details=1&hide_gdpr_banner=1"
+                                style={{ minWidth: '320px', height: '700px' }}
+                            ></div>
+                            {/* <div className="contact-form-style-one">
                                 <h4 className="sub-title">Have Questions?</h4>
                                 <h2 className="title">Send us a Massage</h2>
                                 <ContactForm />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

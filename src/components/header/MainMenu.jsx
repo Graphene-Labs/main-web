@@ -5,7 +5,7 @@ const MainMenu = ({ toggleSubMenu }) => {
     return (
         <>
             <ul className="nav navbar-nav navbar-center">
-                <li><Link href="/about-us">About</Link></li>
+                {/* <li><Link href="/about-us">About</Link></li>
                 <li className="dropdown">
                     <Link href="/home2" className="dropdown-toggle">Solutions</Link>
                     <ul className="dropdown-menu">
@@ -17,7 +17,7 @@ const MainMenu = ({ toggleSubMenu }) => {
                         <li><Link href="/services-details/1">Social Media Marketing</Link></li>
                         <li><Link href="/services-details/1">Keyword Research</Link></li>
                     </ul>
-                </li>
+                </li> */}
                 {/* <li><Link href="/blog-with-sidebar/1">Blog</Link></li> */}
                 {/* <li><Link href="/project">Showcase</Link></li>
                 <li><Link href="/blog-with-sidebar/1">Careers</Link></li> */}
@@ -67,7 +67,7 @@ const MainMenu = ({ toggleSubMenu }) => {
                         <li><Link href="/blog-single-with-sidebar/1">Blog Single With Sidebar</Link></li>
                     </ul>
                 </li> */}
-                <li><Link href="/contact-us">contact</Link></li>
+                {/* <li><Link href="/contact-us">contact</Link></li> */}
             </ul>
         </>
     );
