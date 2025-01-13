@@ -7,7 +7,7 @@ import React from 'react';
 import AccordionV1Data from '@/assets/jsonData/accordion/AccordionV1Data.json'
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Project Single"
+    title: "Graphene Labs - Digital Transformation - Project Single"
   };
 
 const ProjectSingle = ({ params }) => {

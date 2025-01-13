@@ -3,7 +3,7 @@ import PortfolioV2 from '@/components/portfolio/PortfolioV2';
 import React from 'react';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Project"
+    title: "Graphene Labs - Digital Transformation - Project"
 };
 
 const Project = () => {

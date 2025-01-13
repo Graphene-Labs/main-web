@@ -3,7 +3,7 @@ import TeamPageContent from '@/components/team/TeamPageContent';
 import React from 'react';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Team"
+    title: "Graphene Labs - Digital Transformation - Team"
 };
 
 const Team = () => {

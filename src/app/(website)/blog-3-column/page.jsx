@@ -3,7 +3,7 @@ import LayoutStyle2 from '@/components/layouts/LayoutStyle2';
 import React from 'react';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Blog 3 Column"
+    title: "Graphene Labs - Digital Transformation - Blog 3 Column"
 };
 
 const Blog3Column = () => {

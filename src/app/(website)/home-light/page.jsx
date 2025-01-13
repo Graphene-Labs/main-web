@@ -14,7 +14,7 @@ import WhyChooseV1 from '@/components/whyChoose/WhyChooseV1';
 import React from 'react';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Home Light"
+    title: "Graphene Labs - Digital Transformation - Home Light"
   };
 
 const HomeLight = () => {

@@ -13,7 +13,7 @@ import TeamV1 from '@/components/team/TeamV1';
 import React from 'react';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Home 3"
+    title: "Graphene Labs - Digital Transformation - Home 3"
 };
 
 const Home3 = () => {

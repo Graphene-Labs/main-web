@@ -6,7 +6,7 @@ import AwardContent from '@/components/awards/AwardContent';
 import TeamQualification from '@/components/team/TeamQualification';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Team Details"
+    title: "Graphene Labs - Digital Transformation - Team Details"
 };
 
 const TeamDetails = ({ params }) => {

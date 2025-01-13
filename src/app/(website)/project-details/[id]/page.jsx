@@ -4,7 +4,7 @@ import PortfolioV1Data from '@/assets/jsonData/portfolio/PortfolioV1Data.json';
 import LayoutStyle2 from '@/components/layouts/LayoutStyle2';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Project Details"
+    title: "Graphene Labs - Digital Transformation - Project Details"
 };
 
 const ProjectDetails = ({ params }) => {

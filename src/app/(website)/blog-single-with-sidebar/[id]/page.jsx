@@ -4,7 +4,7 @@ import React from 'react';
 import BlogData from "@/assets/jsonData/blog/BlogData.json";
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Blog Single With Sidebar"
+    title: "Graphene Labs - Digital Transformation - Blog Single With Sidebar"
 };
 
 const BlogSingleWithSidebar = ({ params }) => {

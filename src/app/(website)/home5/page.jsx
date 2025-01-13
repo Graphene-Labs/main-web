@@ -5,7 +5,7 @@ import DarkLayout from '@/components/layouts/DarkLayout';
 import HeaderV3 from '@/components/header/HeaderV3';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Home 5"
+    title: "Graphene Labs - Digital Transformation - Home 5"
 };
 
 const Home5 = () => {

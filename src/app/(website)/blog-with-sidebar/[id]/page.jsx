@@ -12,7 +12,7 @@ import Pagination from '@/components/pagination/Pagination';
 import LayoutStyle2 from '@/components/layouts/LayoutStyle2';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Blog With Sidebar"
+    title: "Graphene Labs - Digital Transformation - Blog With Sidebar"
 };
 
 const BlogWithSidebarPage = () => {

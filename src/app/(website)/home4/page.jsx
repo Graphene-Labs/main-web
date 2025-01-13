@@ -4,7 +4,7 @@ import DarkLayout from '@/components/layouts/DarkLayout';
 import React from 'react';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Home 4"
+    title: "Graphene Labs - Digital Transformation - Home 4"
 };
 
 const Home4 = () => {

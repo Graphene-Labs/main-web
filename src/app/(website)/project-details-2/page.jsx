@@ -4,7 +4,7 @@ import ProjectDetails2Content from '@/components/project/ProjectDetails2Content'
 import React from 'react';
 
 export const metadata = {
-    title: "Avrix - Digital Agency Portfolio - Project Details 2"
+    title: "Graphene Labs - Digital Transformation - Project Details 2"
 };
 
 const ProjectDetails2 = () => {
