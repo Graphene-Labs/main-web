@@ -27,7 +27,7 @@ const PriceV1 = ({ sectionClass }) => {
                             <div className="col-xl-5 col-lg-4 offset-xl-1 offset-lg-1 ">
                                 <h4 className="sub-title">Case Study</h4>
                                 <h2 className="title">Digital Transformation: Port Security and Loss Prevention</h2>
-                                <p>We implemented a comprehensive solution for port security, integrating an IoT-based QR tracking system and advanced data analytics. This innovation enabled real-time monitoring of trucks, reducing operational losses, enhancing security, and improving overall efficiency in the port operations.
+                                <p>We implemented a comprehensive solution for port security at DP World Callao, Peru, on behalf of Diloge Company. By integrating an IoT-based QR tracking system and advanced data analytics, this innovation enabled real-time monitoring of trucks, reducing operational losses, enhancing security, and improving overall efficiency in port operations.
                                 </p>
                                 {/* <h5>Join today and get <strong>50%</strong> Off</h5> */}
                                 <Link className="btn mt-10 btn-gradient btn-sm" href="/contact-us">Get a Free consultantion</Link>
