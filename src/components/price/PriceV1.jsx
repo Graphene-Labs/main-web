@@ -20,7 +20,7 @@ const PriceV1 = ({ sectionClass }) => {
                                 {/* {PriceV1Data.map(price =>
                                     <SinglePriceV1 price={price} key={price.id} />
                                 )} */}
-                                <div className={`pricing-style-one active} min-h-[450px]`}>
+                                <div className={`pricing-style-one case-study-img min-h-[450px]`}>
 
                                 </div>
                             </div>

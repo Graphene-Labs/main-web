@@ -17,9 +17,9 @@ const TeamV1 = () => {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row">
-                        {TeamV1Data.slice(0, 4).map(team =>
-                            <div className={`col-xl-3 col-md-6 mb-30 wow fadeInUp`} key={team.id} data-wow-delay={team.delay}>
+                    <div className="row gap-y-5">
+                        {TeamV1Data.slice(0, 8).map(team =>
+                            <div className={`col-xl-3 col-md-6 mb-30 wow fadeInUp `} key={team.id} data-wow-delay={team.delay}>
                                 <SingleTeamV1 team={team} />
                             </div>
                         )}

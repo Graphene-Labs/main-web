@@ -19,6 +19,7 @@ import { Manrope } from 'next/font/google'
 import { ToastContainer } from 'react-toastify'
 import Dependency from '@/components/utilities/Dependency'
 import { draftMode } from 'next/headers'
+import MainHeader from './_components/MainHeader'
 
 const manrope = Manrope({
     subsets: ['latin'],
@@ -38,6 +39,7 @@ export default async function RootLayout({ children }) {
                 <link rel="icon" href="/assets/img/favicon.png" type="image/png" />
             </head>
             <body className={`${manrope.className}`}>
+                <MainHeader />
                 <ToastContainer />
                 <Dependency />
                 {children}
