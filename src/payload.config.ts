@@ -16,6 +16,7 @@ import { Posts } from './collections/Posts'
 import { plugins } from './plugins'
 import Logo from './app/(payload)/_components/Logo'
 import Icon from './app/(payload)/_components/Icon'
+import { Tacticals } from './collections/Landings/Tacticals'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -24,11 +25,11 @@ export default buildConfig({
     admin: {
         theme: 'light',
         user: Users.slug,
-        // components: {
-        //     graphics: {
-        //         icon: "https://www.casinoatlanticcity.com/favicon.ico"
-        //     },
-        // },
+        components: {
+            graphics: {
+                // icon: Icon,
+            },
+        },
         meta: {
             title: 'Dashboard',
             titleSuffix: '| Atlantic CMS',
@@ -50,7 +51,7 @@ export default buildConfig({
             connectionString: process.env.DATABASE_URI || '',
         },
     }),
-    collections: [Posts, Media, Categories, Users],
+    collections: [Posts, Media, Categories, Users, Tacticals],
     cors: [getServerSideURL()].filter(Boolean),
     secret: process.env.PAYLOAD_SECRET || '',
     typescript: {

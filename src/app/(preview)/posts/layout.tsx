@@ -13,13 +13,13 @@ import '@/assets/css/validnavs.css'
 
 import '@/assets/css/unit-test.css'
 import '@/assets/css/style.css'
-import './globals.css'
+import '../globals.css'
 
 import { Manrope } from 'next/font/google'
 import { ToastContainer } from 'react-toastify'
 import Dependency from '@/components/utilities/Dependency'
 import { draftMode } from 'next/headers'
-import MainHeader from './_components/MainHeader'
+import MainHeader from '../_components/MainHeader'
 
 const manrope = Manrope({
     subsets: ['latin'],
@@ -27,7 +27,7 @@ const manrope = Manrope({
 })
 
 export const metadata = {
-    title: 'Graphene Labs - Digital Transformation',
+    title: 'Preview page',
 }
 
 export default async function RootLayout({ children }) {

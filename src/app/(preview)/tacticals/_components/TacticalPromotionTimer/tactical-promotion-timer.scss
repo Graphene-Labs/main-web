@@ -1,0 +1,204 @@
+$cmsURL: 'https://www.casinoatlanticcity.com';
+
+@mixin bgImage($url1, $url2) {
+    &::before {
+        background-image: url($cmsURL + '/static/img/promociones/' + $url1);
+    }
+
+    @media (min-width: 1024px) {
+        &::before {
+            background-image: url($cmsURL + '/static/img/promociones/' + $url2);
+        }
+    }
+}
+
+.timer-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 290px;
+    overflow: hidden;
+    padding: 40px 30px;
+    padding-bottom: 8px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        padding: 70px 72px;
+        min-height: 270px;
+        align-items: end;
+    }
+
+    @media (min-width: 1024px) {
+        min-height: 300px;
+    }
+
+    @media (min-width: 1300px) {
+        min-height: 330px;
+    }
+
+    @media (min-width: 1400px) {
+        min-height: 340px;
+    }
+
+    @media (min-width: 1700px) {
+        min-height: 350px;
+    }
+
+    @media (min-width: 1850px) {
+        min-height: 360px;
+    }
+
+    @media (min-width: 1960px) {
+        min-height: 390px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 2;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            align-items: center;
+            flex-direction: row;
+            gap: 80px;
+            justify-content: center;
+        }
+    }
+
+    &::before {
+        background-size: cover;
+        content: '';
+        height: 242px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        background-repeat: no-repeat;
+
+        @media (min-width: 1024px) {
+            top: -90px;
+        }
+
+        @media (min-width: 1200px) {
+            top: -100px;
+        }
+
+        @media (min-width: 1250px) {
+            top: -110px;
+        }
+
+        @media (min-width: 1300px) {
+            top: -115px;
+        }
+
+        @media (min-width: 1750px) {
+            top: -120px;
+        }
+
+        @media (min-width: 1850px) {
+            top: -135px;
+        }
+
+        @media (min-width: 1900px) {
+            top: -145px;
+        }
+
+        @media (min-width: 1960px) {
+            top: -135px;
+        }
+    }
+}
+
+.burger-king {
+    @include bgImage('burger-king/wave-mobile.svg', 'burger-king/wave-desktop.svg');
+}
+
+.cineplanet {
+    @include bgImage('cineplanet/wave-mobile.svg', 'cineplanet/wave-desktop.svg');
+}
+
+.timer-title {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+
+    @media (min-width: 768px) {
+        font-size: 28px;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+
+    span {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 28px;
+
+        @media (min-width: 768px) {
+            font-size: 44px;
+            line-height: 44px;
+        }
+    }
+}
+
+.main-timer {
+    align-items: center;
+    backdrop-filter: blur(53.6px);
+    border-radius: 12px;
+    border: 1px solid;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 18px;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        border-radius: 16px;
+        border: 2px solid;
+        gap: 16px;
+        padding: 16px 24px;
+        width: 370px;
+    }
+
+    &__info {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 50px;
+
+        @media (min-width: 768px) {
+            gap: 8px;
+            min-width: 66px;
+        }
+
+        h3 {
+            font-size: 34.304px;
+            font-weight: 700;
+            line-height: 29.587px;
+            text-align: center;
+
+            @media (min-width: 768px) {
+                font-size: 48px;
+                line-height: normal;
+                max-height: 40px;
+            }
+        }
+
+        p {
+            text-align: center;
+            font-size: 21.44px;
+            font-weight: 400;
+            line-height: 19.725px;
+
+            @media (min-width: 768px) {
+                font-size: 24px;
+                line-height: normal;
+            }
+        }
+    }
+}

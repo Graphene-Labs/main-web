@@ -1,0 +1,163 @@
+.steps-container {
+    padding: 16px 20px;
+    padding-top: 0;
+
+    @media (min-width: 768px) {
+        padding: 32px 42px;
+        padding-bottom: 0px;
+    }
+
+    @media (min-width: 1200px) {
+        padding: 32px 72px;
+    }
+
+    &__subtitle {
+        color: rgba(33, 33, 33, 0.8);
+    }
+
+    &__include-food {
+        margin-bottom: 16px;
+        padding: 0 20px;
+
+        p {
+            color: rgba(33, 33, 33, 0.8);
+            font-size: 20px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        h2 {
+            display: none;
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            text-align: center;
+
+            @media (min-width: 768px) {
+                display: block;
+            }
+        }
+    }
+
+    &__info {
+        padding: 8px 16px 16px 16px;
+
+        @media (min-width: 768px) {
+            padding: 20px 0px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 24px;
+
+            @media (min-width: 768px) {
+                font-size: 36px;
+            }
+        }
+    }
+}
+
+.steps-info-grid {
+    display: grid;
+    grid-template-rows: repeat(3, minmax(90px, 110px));
+    row-gap: 24px;
+    margin-bottom: 16px;
+
+    @media (min-width: 960px) {
+        grid-template-columns: repeat(3, minmax(min-content, 450px));
+        justify-content: center;
+        grid-template-rows: none;
+        column-gap: 24px;
+        margin-bottom: 32px;
+    }
+
+    @media (min-width: 1400px) {
+        column-gap: 48px;
+    }
+
+    &__item {
+        border-radius: 0px 24px 24px 24px;
+        border: 4px solid;
+        display: grid;
+        padding: 14px 24px;
+        position: relative;
+
+        @media (min-width: 1200px) {
+            padding: 16px 40px;
+        }
+    }
+}
+
+.step-info-number {
+    align-items: center;
+    border-radius: 24px;
+    border: 4px solid;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    justify-content: center;
+    left: -16px;
+    padding: 4px 16px;
+    position: absolute;
+    top: -6px;
+    width: 40px;
+
+    @media (min-width: 1200px) {
+        border-radius: 99px;
+        border: 8px solid;
+        height: 56px;
+        top: -10px;
+        width: 56px;
+    }
+
+    span {
+        font-size: 25px;
+        font-weight: 800;
+        text-align: center;
+    }
+}
+
+.step-info-detail {
+    text-align: center;
+
+    h3 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 8px;
+        line-height: 1.2;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        p {
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        h3 {
+            font-size: 23px;
+            line-height: normal;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    @media screen and (min-width: 1360px) {
+        h3 {
+            font-size: 28px;
+        }
+    }
+}

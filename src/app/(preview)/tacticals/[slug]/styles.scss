@@ -1,0 +1,72 @@
+// Variables para Steps
+$bg-color-step-number: #1c1268;
+$bg-color-steps-container: #a0d3f4;
+$bg-color-steps-item: #ffffff;
+$border-color-step-number: #a0d3f4;
+$border-color-steps-item: #cfe9f9;
+$color-code-number: #fff;
+$color-code-step: #ff4247;
+$color-subtitle-and-text: rgba(33, 33, 33, 0.8);
+
+// Variables para Timer
+$bg-color-timer-container: #35a7ff;
+$color-timer-border: #fff;
+$color-timer-info: #fff;
+$color-timer-title: rgba(33, 33, 33, 0.8);
+
+.landing-cineplanet {
+    // padding-top: 56px;
+
+    // @media (min-width: 768px) {
+    //     padding-top: 68px;
+    // }
+
+    .steps-container {
+        background-color: $bg-color-steps-container;
+        border-color: $border-color-steps-item;
+    }
+
+    .steps-info-grid__item {
+        background-color: $bg-color-steps-item;
+        border-color: $border-color-steps-item;
+    }
+
+    .step-info {
+        &-number {
+            background-color: $bg-color-step-number;
+            border-color: $border-color-step-number;
+
+            span {
+                color: $color-code-number;
+            }
+        }
+
+        &-detail {
+            h3,
+            p {
+                color: $color-subtitle-and-text;
+            }
+
+            span {
+                color: $color-code-step;
+            }
+        }
+    }
+
+    .timer-container {
+        background-color: $bg-color-timer-container;
+    }
+
+    .timer-title {
+        color: $color-timer-title;
+    }
+
+    .main-timer {
+        border-color: $color-timer-border;
+
+        h3,
+        p {
+            color: $color-timer-info;
+        }
+    }
+}
