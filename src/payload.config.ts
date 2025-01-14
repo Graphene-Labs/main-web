@@ -14,32 +14,51 @@ import { getServerSideURL } from './utilities/getURL'
 // import { Pages } from './collections/Pages'
 import { Posts } from './collections/Posts'
 import { plugins } from './plugins'
+import Logo from './app/(payload)/_components/Logo'
+import Icon from './app/(payload)/_components/Icon'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
 
 export default buildConfig({
-  admin: {
-    user: Users.slug,
-    importMap: {
-      baseDir: path.resolve(dirname),
+    admin: {
+        theme: 'light',
+        user: Users.slug,
+        // components: {
+        //     graphics: {
+        //         icon: "https://www.casinoatlanticcity.com/favicon.ico"
+        //     },
+        // },
+        meta: {
+            title: 'Dashboard',
+            titleSuffix: '| Atlantic CMS',
+            icons: [
+                {
+                    url: 'https://www.casinoatlanticcity.com/favicon.ico', // Ruta al favicon
+                    sizes: '32x32', // Tamaño del ícono
+                    type: 'image/x-icon', // Tipo MIME
+                },
+            ],
+        },
+        importMap: {
+            baseDir: path.resolve(dirname),
+        },
     },
-  },
-  editor: lexicalEditor(),
-  db: postgresAdapter({
-    pool: {
-      connectionString: process.env.DATABASE_URI || '',
+    editor: lexicalEditor(),
+    db: postgresAdapter({
+        pool: {
+            connectionString: process.env.DATABASE_URI || '',
+        },
+    }),
+    collections: [Posts, Media, Categories, Users],
+    cors: [getServerSideURL()].filter(Boolean),
+    secret: process.env.PAYLOAD_SECRET || '',
+    typescript: {
+        outputFile: path.resolve(dirname, 'payload-types.ts'),
     },
-  }),
-  collections: [Posts, Media, Categories, Users],
-  cors: [getServerSideURL()].filter(Boolean),
-  secret: process.env.PAYLOAD_SECRET || '',
-  typescript: {
-    outputFile: path.resolve(dirname, 'payload-types.ts'),
-  },
-  sharp,
-  plugins: [
-    ...plugins,
-    // storage-adapter-placeholder
-  ],
+    sharp,
+    plugins: [
+        ...plugins,
+        // storage-adapter-placeholder
+    ],
 })

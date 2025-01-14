@@ -1,0 +1,46 @@
+@import '~@payloadcms/ui/scss';
+
+@layer payload {
+    .dashboard {
+        // background-color: red; 
+    }
+
+    .nav-group__content {
+        gap: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav__scroll {
+        padding: var(--app-header-height) .7692307692rem 3.0769230769rem;
+        // padding-top: 130px;
+
+        &::before {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 60px;
+            background-image: url('https://www.casinoatlanticcity.com/static/img/logos/logo-casino.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+
+    .nav__link {
+        padding-block: 6px;
+        padding-inline: 12px;
+
+        &:hover {
+            background-color: var(--theme-elevation-50);
+            text-decoration: none;
+        }
+
+        &.active {
+            background-color: var(--theme-elevation-50);
+        }
+
+        .nav__link-indicator {
+            display: none;
+        }
+    }
+}
