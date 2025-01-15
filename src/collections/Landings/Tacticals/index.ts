@@ -71,20 +71,34 @@ export const Tacticals: CollectionConfig<'tacticals'> = {
     },
     fields: [
         {
-            name: 'title',
-            type: 'text',
-            required: true,
-        },
-        {
             type: 'tabs',
             tabs: [
                 {
                     fields: [
                         {
+                            name: 'title',
+                            type: 'text',
+                            required: true,
+                        },
+                        {
                             name: 'heroImage',
                             type: 'upload',
                             relationTo: 'media',
-                            label: 'Imagen de Hero',
+                            label: 'Imagen de Hero (Desktop)',
+                            admin: {
+                                width: '50%',
+                                className: 'hero-image-field', // Clase personalizada para el campo
+                            },
+                        },
+                        {
+                            name: 'heroImageMobile',
+                            type: 'upload',
+                            relationTo: 'media',
+                            label: 'Imagen de Hero (Mobile)',
+                            admin: {
+                                width: '50%',
+                                className: 'hero-image-mobile-field', // Clase personalizada para el campo
+                            },
                         },
                         {
                             name: 'content',
@@ -107,7 +121,11 @@ export const Tacticals: CollectionConfig<'tacticals'> = {
                             required: true,
                         },
                     ],
-                    label: 'Content',
+                    label: 'Configuraciones',
+                },
+                {
+                    fields: [],
+                    label: 'Contenido',
                 },
                 {
                     fields: [
@@ -137,7 +155,7 @@ export const Tacticals: CollectionConfig<'tacticals'> = {
                             relationTo: 'categories',
                         },
                     ],
-                    label: 'Meta',
+                    label: 'TyC',
                 },
                 {
                     name: 'meta',
@@ -187,39 +205,6 @@ export const Tacticals: CollectionConfig<'tacticals'> = {
                     },
                 ],
             },
-        },
-        {
-            name: 'authors',
-            type: 'relationship',
-            admin: {
-                position: 'sidebar',
-            },
-            hasMany: true,
-            relationTo: 'users',
-        },
-        // This field is only used to populate the user data via the `populateAuthors` hook
-        // This is because the `user` collection has access control locked to protect user privacy
-        // GraphQL will also not return mutated user data that differs from the underlying schema
-        {
-            name: 'populatedAuthors',
-            type: 'array',
-            access: {
-                update: () => false,
-            },
-            admin: {
-                disabled: true,
-                readOnly: true,
-            },
-            fields: [
-                {
-                    name: 'id',
-                    type: 'text',
-                },
-                {
-                    name: 'name',
-                    type: 'text',
-                },
-            ],
         },
         ...slugField(),
     ],

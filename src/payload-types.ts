@@ -238,6 +238,7 @@ export interface Tactical {
   id: number;
   title: string;
   heroImage?: (number | null) | Media;
+  heroImageMobile?: (number | null) | Media;
   content: {
     root: {
       type: string;
@@ -264,13 +265,6 @@ export interface Tactical {
     description?: string | null;
   };
   publishedAt?: string | null;
-  authors?: (number | User)[] | null;
-  populatedAuthors?:
-    | {
-        id?: string | null;
-        name?: string | null;
-      }[]
-    | null;
   slug?: string | null;
   slugLock?: boolean | null;
   updatedAt: string;
@@ -502,6 +496,7 @@ export interface UsersSelect<T extends boolean = true> {
 export interface TacticalsSelect<T extends boolean = true> {
   title?: T;
   heroImage?: T;
+  heroImageMobile?: T;
   content?: T;
   relatedPosts?: T;
   categories?: T;
@@ -513,13 +508,6 @@ export interface TacticalsSelect<T extends boolean = true> {
         description?: T;
       };
   publishedAt?: T;
-  authors?: T;
-  populatedAuthors?:
-    | T
-    | {
-        id?: T;
-        name?: T;
-      };
   slug?: T;
   slugLock?: T;
   updatedAt?: T;

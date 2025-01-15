@@ -25,9 +25,9 @@ const HeaderV1 = ({ logoWhite }) => {
                     <div className="container flex justify-content-between align-items-center">
 
                         <div className="navbar-header">
-                            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={openMenu}>
+                            {/* <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={openMenu}>
                                 <i className="fa fa-bars"></i>
-                            </button>
+                            </button> */}
                             <Link className="navbar-brand" href="/">
 
                                 {logoWhite ?
