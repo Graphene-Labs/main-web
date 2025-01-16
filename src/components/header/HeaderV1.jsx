@@ -38,19 +38,6 @@ const HeaderV1 = ({ logoWhite }) => {
                             </Link>
                         </div>
 
-                        <div className={`flex-1 navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
-
-                            {/* {logoWhite ?
-                                <Image src={logoLight} className="logo" alt="Logo" />
-                                : <Image src={logo} className="logo" alt="Logo" />
-                            } */}
-
-                            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={closeMenu}>
-                                <i className="fa fa-times"></i>
-                            </button>
-                            <MainMenu isOpen={isOpen} closeMenu={closeMenu} toggleSubMenu={toggleSubMenu} />
-                        </div>
-
                         {/* <SidebarInfo openInfoBar={openInfoBar} closeInfoBar={closeInfoBar} isInfoOpen={isInfoOpen} /> */}
                         <div>
                             <Link className="btn btn-gradient btn-sm" href="/contact-us">Let's Meet</Link>

@@ -51,7 +51,7 @@ const Home1 = () => {
                         <ClientV1 />
                         <TeamV1 />
                         {/* <ProjectV1 /> */}
-                        <AboutV2 sectionClass="pt-4 pb-28 relative"/>
+                        <AboutV2 sectionClass="pt-4 lg:pb-28 relative"/>
                         {/* <BlogV1 /> */}
                         <DarkLayout />
                     </div>

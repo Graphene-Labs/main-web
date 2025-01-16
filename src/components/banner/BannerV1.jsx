@@ -5,12 +5,12 @@ import PopupVideo from '../video/PopupVideo';
 const BannerV1 = () => {
     return (
         <>
-            <div className="banner-style-one h-[85vh] max-h-[850px]">
+            <div className="banner-style-one lg:h-[85vh] max-h-[850px]">
                 <div className="container-lg">
                     <div className="row align-center">
                         <div className="col-lg-8 banner-one-item">
-                            <h4 className='sub-title !border-none !p-0 !mb-2'>Maximize your sales and optimize operations </h4>
-                            <h2>Evolve to the<strong>next level</strong></h2>
+                            <h4 className='sub-title !border-none !rounded-none !p-0 !mb-2 text-[24px] md:text-[16px] leading-1'>Maximize your sales and optimize operations </h4>
+                            <h2 className='!text-[70px] md:!text-[82px] xl:!text-[100px]'>Evolve to the<strong  className='block md:inline !text-[70px] md:!text-[82px] xl:!text-[100px]'>next level</strong></h2>
                         </div>
                         <div className="col-lg-3 offset-lg-1 banner-one-item text-center">
                             {/* <div className="curve-text">
@@ -24,7 +24,7 @@ const BannerV1 = () => {
                             </div> */}
                         </div>
                     </div>
-                    <div className="w-full text-right">
+                    <div className="w-full lg:text-right">
                         <Link className="btn mt-10 btn-gradient btn-md" href="/contact-us">Get a free consultation</Link>
                     </div>
                 </div>

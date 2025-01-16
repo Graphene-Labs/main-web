@@ -35,7 +35,7 @@ const AboutV2 = ({ sectionClass }) => {
                 ></script>
             </Head> */}
 
-            <div className={`flex gap-20 ${sectionClass}`}>
+            <div className={`flex gap-20 ${sectionClass} flex-col-reverse lg:flex-row`}>
                 <div className="flex-1">
                     {/* <div className="experience-style-one">
                         <div className="video-button">
@@ -56,7 +56,7 @@ const AboutV2 = ({ sectionClass }) => {
                     <div className="row">
                         <div className="">
                             <div className="about-style-two-info">
-                                <h4 className="sub-title">Talk to us</h4>
+                                <h4 className="sub-title mt-10">Talk to us</h4>
                                 <h2 className="title">Get your project moving!</h2>
                                 <div className="faq-style-one mt-16 service-hover-content grid-cols-1">
                                     <div className="space-y-4 details" id="faqAccordion">
@@ -74,7 +74,7 @@ const AboutV2 = ({ sectionClass }) => {
                                             </li>
                                         </ul>
                                         <Link
-                                            className="btn btn-gradient btn-sm !mt-20"
+                                            className="btn btn-gradient btn-sm !mt-20 hidden lg:inline-block"
                                             href="/contact-us"
                                         >
                                             Schedule a Call

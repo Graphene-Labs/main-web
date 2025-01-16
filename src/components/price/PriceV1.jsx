@@ -16,16 +16,17 @@ const PriceV1 = ({ sectionClass }) => {
                     <div className="pricing-items">
                         <div className="row align-center">
                             <div className="col-xl-6 col-lg-7 " >
+                                <h4 className="sub-title lg:hidden">Case Study</h4>
 
                                 {/* {PriceV1Data.map(price =>
                                     <SinglePriceV1 price={price} key={price.id} />
                                 )} */}
-                                <div className={`pricing-style-one case-study-img min-h-[450px]`}>
+                                <div className={`pricing-style-one !mt-0 mb-6 lg:!mt-4 case-study-img min-h-[450px]`}>
 
                                 </div>
                             </div>
                             <div className="col-xl-5 col-lg-4 offset-xl-1 offset-lg-1 ">
-                                <h4 className="sub-title">Case Study</h4>
+                                <h4 className="sub-title hidden lg:inline-block">Case Study</h4>
                                 <h2 className="title">Digital Transformation: Port Security and Loss Prevention</h2>
                                 <p>We implemented a comprehensive solution for port security at DP World Callao, Peru, on behalf of Diloge Company. By integrating an IoT-based QR tracking system and advanced data analytics, this innovation enabled real-time monitoring of trucks, reducing operational losses, enhancing security, and improving overall efficiency in port operations.
                                 </p>

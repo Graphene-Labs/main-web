@@ -47,7 +47,7 @@ const ServicesV1 = ({ sectionClass }) => {
                     </div>
 
                     <div className="container min-h-[460px]">
-                        <div className="row absolute w-full">
+                        <div className="row md:absolute w-full">
                             <div className="col-lg-12">
                                 <div className="services-item-one-items">
                                     <div className="services-nav">

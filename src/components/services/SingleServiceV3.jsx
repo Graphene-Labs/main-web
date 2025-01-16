@@ -25,9 +25,9 @@ const SingleServiceV3 = ({ service }) => {
                                 ))}
                             </ul>
                         </div>
-                        <div className="arrow">
+                        {/* <div className="arrow">
                             <strong className="btn-animation"><i className={icon2}></i> <span>View More</span></strong>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="service-hover-wrapper">
                         {/* <Image className="service-hover-placeholder" src={`/assets/img/portfolio/${thumb}`} alt="Image Not Found" width={337} height={337} /> */}
