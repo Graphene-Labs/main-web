@@ -4402,7 +4402,8 @@ img.bg-move {
 
 .service-hover-content {
 	display: grid;
-	grid-template-columns: 0.5fr 1.6fr 2.5fr 1.2fr;
+	/* grid-template-columns: 0.5fr 1.6fr 2.5fr 1.2fr; */
+	grid-template-columns: 0.5fr 1.6fr 2.5fr;
 	grid-column-gap: 70px;
 }
 

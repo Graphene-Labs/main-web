@@ -9,7 +9,8 @@ const SingleServiceV3 = ({ service }) => {
     return (
         <>
             <li>
-                <Link href={`/services-details/${id}`} className="service-hover-item">
+            {/* <Link href={`/services-details/${id}`} className="service-hover-item"> */}
+                <div className="service-hover-item">
                     <div className="service-hover-content">
                         <div className="icon">
                             <i className={icon}></i>
@@ -40,7 +41,7 @@ const SingleServiceV3 = ({ service }) => {
                             />
                         </div>
                     </div>
-                </Link>
+                </div>
             </li>
         </>
     );

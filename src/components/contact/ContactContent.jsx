@@ -20,7 +20,7 @@ const ContactContent = () => {
         <>
             <div className="contact-area contact-page overflow-hidden default-padding">
                 <div className="container">
-                    <div className="row">
+                    <div className="flex flex-col-reverse md:flex-row">
                         <div className="col-tact-stye-one col-lg-5 pr-50 pr-md-15 pr-xs-15">
                             <div className="contact-style-one-info">
                                 <ul className="contact-address bg-dark text-light" style={{ backgroundImage: "url(assets/img/shape/globe.png)" }}>
@@ -51,8 +51,8 @@ const ContactContent = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-tact-stye-one col-lg-7 pl-60 pl-md-15 pl-xs-15 mt-md-50 mt-xs-50">
-                            <h4 className="sub-title">Have Questions?</h4>
+                        <div className="col-tact-stye-one col-lg-7 xl:pl-60 pl-md-15 pl-xs-15 mt-md-50 mt-xs-50">
+                            <h4 className="sub-title pt-12 md:pt-0">Have Questions?</h4>
                             <h2 className="title">Schedule a Call</h2>
                             <div
                                 className="calendly-inline-widget"
