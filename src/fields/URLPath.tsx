@@ -7,8 +7,8 @@ export const landingURLField: Field = {
     admin: {
         readOnly: true, // Solo lectura
         description: 'Este campo muestra la URL dinámica basada en el slug.',
-        components: {
-            Field: DynamicURLComponent, // Usamos el componente personalizado aquí
-        },
+        // components: {
+        //     Field: DynamicURLComponent, // Usamos el componente personalizado aquí
+        // },
     },
 }

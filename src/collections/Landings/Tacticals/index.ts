@@ -26,7 +26,7 @@ import {
     PreviewField,
 } from '@payloadcms/plugin-seo/fields'
 import { slugField } from '@/fields/slug'
-import { landingURLField } from '@/fields/URLPath'
+// import { landingURLField } from '@/fields/URLPath'
 
 export const Tacticals: CollectionConfig<'tacticals'> = {
     slug: 'tacticals',
@@ -82,7 +82,7 @@ export const Tacticals: CollectionConfig<'tacticals'> = {
                             required: true,
                         },
                         ...slugField('title', '/poo/'),
-                        landingURLField,
+                        // landingURLField,
 
                         {
                             name: 'heroImage',
