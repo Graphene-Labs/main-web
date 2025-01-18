@@ -12,7 +12,7 @@ const ServiceV3 = () => {
         const lottieFiles = document.querySelectorAll('.service-hover-lottie');
 
         const handleMouseEnter = (index, e) => {
-            linkHoverRevealElements[index].style.opacity = 1;
+            linkHoverRevealElements[index].style.opacity = 0.2;
             linkHoverRevealElements[index].style.transform = `translate(0%, 0%) rotate(-3deg)`;
             // linkImages[index].style.transform = 'scale(1, 1)';
             // lottieFiles.style.transform = 'scale(1, 1)';

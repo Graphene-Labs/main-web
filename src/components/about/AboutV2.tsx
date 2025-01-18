@@ -26,7 +26,7 @@ const AboutV2 = ({ sectionClass }) => {
     }, []) // El efecto solo se ejecuta una vez
 
     return (
-        <div className="container">
+        <div className="container pt-16 md:pt-32" id="schedule-meet">
             {/* <Head>
                 <script
                     type="text/javascript"
@@ -35,7 +35,9 @@ const AboutV2 = ({ sectionClass }) => {
                 ></script>
             </Head> */}
 
-            <div className={`flex gap-20 ${sectionClass} flex-col-reverse lg:flex-row`}>
+            <div
+                className={`flex gap-20 ${sectionClass} flex-col-reverse items-center md:items-start lg:flex-row`}
+            >
                 <div className="flex-1">
                     {/* <div className="experience-style-one">
                         <div className="video-button">
@@ -58,7 +60,7 @@ const AboutV2 = ({ sectionClass }) => {
                             <div className="about-style-two-info">
                                 <h4 className="sub-title mt-10">Talk to us</h4>
                                 <h2 className="title">Get your project moving!</h2>
-                                <div className="faq-style-one mt-16 service-hover-content grid-cols-1">
+                                <div className="faq-style-one mt-8 md:mt-16 service-hover-content grid-cols-1">
                                     <div className="space-y-4 details" id="faqAccordion">
                                         <b>LOOKING FOR A RELIABLE SOFTWARE DEVELOPMENT COMPANY?</b>
                                         <p>

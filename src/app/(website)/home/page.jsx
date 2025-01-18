@@ -33,6 +33,7 @@ const Home1 = () => {
                     src="https://assets.calendly.com/assets/external/widget.js"
                     async
                 ></script>
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
             </Head>
             <div className="wrapper">
                 <div className="smooth-scroll-container">

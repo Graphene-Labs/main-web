@@ -34,11 +34,11 @@ const SingleServiceV3 = ({ service }) => {
                         {/* <Image className="service-hover-placeholder" src={`/assets/img/portfolio/${thumb}`} alt="Image Not Found" width={337} height={337} /> */}
                     
                         <div className='service-hover-lottie'>
-                            <DotLottieReact
+                            {/* <DotLottieReact
                             src="https://lottie.host/f43441dc-bb4f-4456-b883-0142bab4c75e/19Ab50Xfuj.lottie"
                             loop
                             autoplay
-                            />
+                            /> */}
                         </div>
                     </div>
                 </div>

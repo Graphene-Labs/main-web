@@ -237,6 +237,12 @@ export interface User {
 export interface Tactical {
   id: number;
   title: string;
+  slug?: string | null;
+  slugLock?: boolean | null;
+  /**
+   * Este campo muestra la URL dinámica basada en el slug.
+   */
+  landingURL?: string | null;
   heroImage?: (number | null) | Media;
   heroImageMobile?: (number | null) | Media;
   content: {
@@ -265,8 +271,6 @@ export interface Tactical {
     description?: string | null;
   };
   publishedAt?: string | null;
-  slug?: string | null;
-  slugLock?: boolean | null;
   updatedAt: string;
   createdAt: string;
   _status?: ('draft' | 'published') | null;
@@ -495,6 +499,9 @@ export interface UsersSelect<T extends boolean = true> {
  */
 export interface TacticalsSelect<T extends boolean = true> {
   title?: T;
+  slug?: T;
+  slugLock?: T;
+  landingURL?: T;
   heroImage?: T;
   heroImageMobile?: T;
   content?: T;
@@ -508,8 +515,6 @@ export interface TacticalsSelect<T extends boolean = true> {
         description?: T;
       };
   publishedAt?: T;
-  slug?: T;
-  slugLock?: T;
   updatedAt?: T;
   createdAt?: T;
   _status?: T;

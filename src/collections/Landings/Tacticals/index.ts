@@ -26,6 +26,7 @@ import {
     PreviewField,
 } from '@payloadcms/plugin-seo/fields'
 import { slugField } from '@/fields/slug'
+import { landingURLField } from '@/fields/URLPath'
 
 export const Tacticals: CollectionConfig<'tacticals'> = {
     slug: 'tacticals',
@@ -80,6 +81,9 @@ export const Tacticals: CollectionConfig<'tacticals'> = {
                             type: 'text',
                             required: true,
                         },
+                        ...slugField('title', '/poo/'),
+                        landingURLField,
+
                         {
                             name: 'heroImage',
                             type: 'upload',
@@ -206,7 +210,6 @@ export const Tacticals: CollectionConfig<'tacticals'> = {
                 ],
             },
         },
-        ...slugField(),
     ],
     hooks: {
         afterChange: [revalidatePost],

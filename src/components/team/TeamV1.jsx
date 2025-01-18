@@ -5,7 +5,7 @@ import SingleTeamV1 from './SingleTeamV1';
 const TeamV1 = () => {
     return (
         <>
-            <div className="team-style-one-area bg-cover default-padding bottom-less" style={{ backgroundImage: "url(assets/img/shape/10.png)" }}>
+            <div className="team-style-one-area bg-cover default-padding pb-0" style={{ backgroundImage: "url(assets/img/shape/10.png)" }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">

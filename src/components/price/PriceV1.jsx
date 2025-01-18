@@ -14,7 +14,7 @@ const PriceV1 = ({ sectionClass }) => {
                 </div>
                 <div className="container">
                     <div className="pricing-items">
-                        <div className="row align-center">
+                        <div className="row align-center lg:gap-12">
                             <div className="col-xl-6 col-lg-7 " >
                                 <h4 className="sub-title lg:hidden">Case Study</h4>
 
@@ -25,13 +25,13 @@ const PriceV1 = ({ sectionClass }) => {
 
                                 </div>
                             </div>
-                            <div className="col-xl-5 col-lg-4 offset-xl-1 offset-lg-1 ">
+                            <div className="flex-1">
                                 <h4 className="sub-title hidden lg:inline-block">Case Study</h4>
                                 <h2 className="title">Digital Transformation: Port Security and Loss Prevention</h2>
                                 <p>We implemented a comprehensive solution for port security at DP World Callao, Peru, on behalf of Diloge Company. By integrating an IoT-based QR tracking system and advanced data analytics, this innovation enabled real-time monitoring of trucks, reducing operational losses, enhancing security, and improving overall efficiency in port operations.
                                 </p>
                                 {/* <h5>Join today and get <strong>50%</strong> Off</h5> */}
-                                <Link className="btn mt-10 btn-gradient btn-sm" href="/contact-us">Get a Free consultantion</Link>
+                                <Link className="btn mt-10 btn-gradient btn-sm" href="/#schedule-meet">Get a Free consultantion</Link>
                             </div>
                         </div>
                     </div>
