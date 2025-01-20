@@ -12,7 +12,7 @@ const SingleTeamV1 = ({ team }) => {
                     <Image src={`/assets/img/team/${thumb}`} alt="Team Image" width={800} height={800} />
                     <ul className="social">
                         <li className="linkedin">
-                            <a href={`https://www.linkedin.com/${linkedin}`}>
+                            <a href={`https://www.linkedin.com/in/${linkedin}`}>
                                 <i className={icon1}></i>
                             </a>
                         </li>
