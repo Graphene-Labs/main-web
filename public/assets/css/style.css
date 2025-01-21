@@ -3860,7 +3860,8 @@ a.btn-round-animation.dark {
 }
 
 .bg-dark .banner-one-item h2 {
-	color: var(--white);
+	-webkit-text-stroke: 1px var(--white);
+	color: transparent;
 }
 
 @media (min-width: 1200px) {
@@ -3870,17 +3871,16 @@ a.btn-round-animation.dark {
 }
 
 .banner-one-item h2 strong {
-	-webkit-text-stroke: 1px var(--color-heading);
-	color: transparent;
+	color: var(--white);
 	float: right;
 	font-weight: 700;
 	font-size: 120px;
 }
 
 .bg-dark .banner-one-item h2 strong {
-	-webkit-text-stroke: 1px var(--white);
+	/* -webkit-text-stroke: 1px var(--white);
 	color: transparent;
-	opacity: 0.8;
+	opacity: 0.8; */
 }
 
 .curve-text svg {
