@@ -42,7 +42,7 @@ const ServiceV3 = () => {
 
     return (
         <>
-            <div className="services-style-three-area bg-dark-secondary text-light overflow-hidden default-padding">
+            <div className="services-style-three-area text-light overflow-hidden default-padding pb-0">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">

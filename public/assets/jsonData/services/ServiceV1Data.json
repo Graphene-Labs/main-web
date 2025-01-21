@@ -4,7 +4,7 @@
         "icon": "1.png",
         "title": "Web Development",
         "title2": "Brand Creation",
-        "text": "Revitalize your online presence with our expert eCommerce and web design services. Tailored for seamless user experiences, our designs ensure your brand shines uniquely and effectively in the digital marketplace.",
+        "text": "Revamp your online presence with expert web design. We create seamless, unique, and engaging experiences to help your brand stand out in digital spaces.",
         "number": "01"
     },
     {
@@ -12,7 +12,7 @@
         "icon": "3.png",
         "title": "Software Development",
         "title2": "Creative Strategy",
-        "text": "Unlock custom software solutions tailored to your needs. Our development expertise brings your ideas to life, enhancing efficiency and driving growth.",
+        "text": "Unlock custom software tailored to your needs. We turn ideas into reality, improving efficiency and driving long-term growth with smart solutions.",
         "number": "02"
     },
     {
@@ -20,7 +20,7 @@
         "icon": "3.png",
         "title": "E-commerce",
         "title2": "Creative Strategy",
-        "text": "E-commerce solutions that include building online stores, managing product catalogs, integrating secure payment gateways, and designing seamless user experiences optimized for conversions. We ensure scalability, high performance, and a customer-centric approach to drive your online sales.",
+        "text": "We build scalable online stores, integrate payments, and design seamless experiences to optimize conversions and enhance customer engagement.",
         "number": "03"
     },
     {
@@ -28,7 +28,7 @@
         "icon": "4.png",
         "title": "Artificial Intelligence",
         "title2": "Brand Strategy",
-        "text": "Elevate your business strategy with our AI services. From automation to analytics, harness AI's power to innovate and streamline your operations effectively.",
+        "text": "Enhance business strategy with AI-driven solutions. Automate tasks, improve analytics, and leverage machine learning for smarter decision-making.",
         "number": "04"
     },
     {
@@ -36,7 +36,7 @@
         "icon": "1.png",
         "title": "Web 3.0 & Blockchain",
         "title2": "Components Developing",
-        "text": "Revolutionize your operations with our Web3.0 and blockchain services. Secure, transparent, and efficient solutions to empower your digital ecosystem.",
+        "text": "Transform operations with blockchain technology. Secure, transparent, and decentralized solutions to enhance trust, efficiency, and scalability.",
         "number": "05"
     },
     {
@@ -44,7 +44,7 @@
         "icon": "1.png",
         "title": "UX / UI Design",
         "title2": "Components Developing",
-        "text": "We craft intuitive and visually compelling interfaces that improve user experience, drive satisfaction, and boost conversion rates. Elevate your digital presence with designs that resonate and perform.",
+        "text": "We craft intuitive, visually appealing interfaces that enhance user engagement, boost satisfaction, and drive conversions with seamless experiences.",
         "number": "06"
     },
     {
@@ -52,7 +52,7 @@
         "icon": "1.png",
         "title": "Enterprise Consulting",
         "title2": "Components Developing",
-        "text": "We provide expert guidance to optimize operations, drive innovation, and manage change effectively. Partner with us to navigate complex challenges and achieve sustainable growth.",
+        "text": "Optimize operations, drive innovation, and manage change. We help businesses streamline processes and achieve long-term success efficiently.",
         "number": "07"
     },
     {
@@ -60,7 +60,7 @@
         "icon": "1.png",
         "title": "Big Data",
         "title2": "Components Developing",
-        "text": "We specialize in managing vast datasets, applying advanced analytics to reveal trends, optimize operations, and predict outcomes. Transform your data into a competitive advantage.",
+        "text": "Leverage big data analytics to extract insights, optimize workflows, and predict trends. Turn information into strategic advantages for growth.",
         "number": "08"
     },
     {
@@ -68,7 +68,7 @@
         "icon": "1.png",
         "title": "Cybersecurity",
         "title2": "Components Developing",
-        "text": "We specialize in protecting networks, systems, and data from cyber threats. Enhance your security posture with our robust solutions and expert guidance to mitigate risks and ensure business continuity.",
+        "text": "Protect systems, networks, and data from cyber threats. Strengthen security with expert solutions that mitigate risks and ensure compliance.",
         "number": "09"
     },
     {
@@ -76,7 +76,7 @@
         "icon": "1.png",
         "title": "IoT",
         "title2": "Components Developing",
-        "text": "We connect and automate devices across your network, enabling real-time data collection and intelligent automation. Harness the power of IoT to increase efficiency, enhance insights, and drive innovation in your business.",
+        "text": "Connect and automate devices for real-time monitoring. Utilize IoT to enhance efficiency, improve insights, and drive technological innovation.",
         "number": "010"
     }
 ]

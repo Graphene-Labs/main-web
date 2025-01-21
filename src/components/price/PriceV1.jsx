@@ -8,7 +8,7 @@ import Link from 'next/link';
 const PriceV1 = ({ sectionClass }) => {
     return (
         <>
-            <div className={`pricing-style-one-area default-padding-top bg-gray ${sectionClass}`}>
+            <div className={`pricing-style-one-area default-padding-top pb-24 ${sectionClass}`}>
                 <div className="shape-left-top">
                     <Image src={shape11} alt="Image Not Found" />
                 </div>

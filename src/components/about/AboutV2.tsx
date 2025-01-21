@@ -26,7 +26,7 @@ const AboutV2 = ({ sectionClass }) => {
     }, []) // El efecto solo se ejecuta una vez
 
     return (
-        <div className="container pt-16 md:pt-32" id="schedule-meet">
+        <div className="container px-0 max-w-5xl pt-16 md:px-6 md:pt-22" id="schedule-meet">
             {/* <Head>
                 <script
                     type="text/javascript"
@@ -36,46 +36,26 @@ const AboutV2 = ({ sectionClass }) => {
             </Head> */}
 
             <div
-                className={`flex gap-20 ${sectionClass} flex-col items-center md:items-start lg:flex-row`}
+                className={`flex gap-10 ${sectionClass} pb-0 flex-col items-center md:items-start`}
             >
-                <div className="container flex-1">
-                    <div className="row">
+                <div className="flex-1 w-full">
+                    <div className="">
                         <div className="px-0">
                             <div className="about-style-two-info">
-                                <h4 className="sub-title mt-10">Talk to us</h4>
-                                <h2 className="title">Get your project moving!</h2>
-                                <div className="faq-style-one mt-8 md:mt-16 service-hover-content grid-cols-1">
-                                    <div className="space-y-4 details" id="faqAccordion">
-                                        <b>LOOKING FOR A RELIABLE SOFTWARE DEVELOPMENT COMPANY?</b>
-                                        <p>
-                                            Build a high-quality Indultrial product designed for
-                                            seamless scaling, active user acquisition, and stable
-                                            performance under high loads with Graphene Growth Labs
-                                        </p>
-                                        <ul>
-                                            <li>We will respond to you within 24 hours.</li>
-                                            <li>
-                                                {`You'll be talking to product and tech experts (no
-                                                account managers)`}
-                                            </li>
-                                        </ul>
-                                        {/* <Link
-                                            className="btn btn-gradient btn-sm !mt-20 hidden lg:inline-block"
-                                            href="/contact-us"
-                                        >
-                                            Schedule a Call
-                                        </Link> */}
-                                    </div>
+                                <div className="text-center">
+                                    <h4 className="sub-title mt-10">Talk to us</h4>
+                                    <h2 className="title">Get your project moving!</h2>
+                                    <p className="pt-4">{`You'll be talking to product and tech experts (no account managers)`}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="flex-1 w-full min-h-[1450px] sm:min-h-[930px] md:min-h-[1450px] xl:min-h-[850px] relative">
+                <div className="flex-1 w-full min-h-[1450px] sm:min-h-[930px] xl:min-h-[850px] relative">
                     <iframe
                         src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3qATp083x4v5bsAoj31XvXOHgfj6en6N6IVJV6B721-lTrO-6Q_jKnUk0jq8DU3l4CVD6NOVI8"
                         width="100%"
-                        className="min-h-[1450px] sm:min-h-[930px] md:min-h-[1450px] xl:min-h-[850px] max-w-[540px] sm:max-w-full md:left-0 overflow-hidden absolute w-screen left-[-12px] md:relative md:w-full"
+                        className="min-h-[1450px] sm:min-h-[930px] xl:min-h-[850px] max-w-[540px] sm:max-w-full md:left-0 overflow-hidden absolute w-screen md:relative md:w-full"
                         style={{
                             mixBlendMode: 'plus-lighter',
                             filter: 'invert(1) hue-rotate(172deg)',

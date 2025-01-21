@@ -820,7 +820,7 @@ p {
 	position: relative;
 	z-index: 1;
 	margin-bottom: 25px;
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .bg-gradient .sub-title,
@@ -4407,7 +4407,7 @@ img.bg-move {
 .service-hover-content {
 	display: grid;
 	/* grid-template-columns: 0.5fr 1.6fr 2.5fr 1.2fr; */
-	grid-template-columns: 0.5fr 1.6fr 2.5fr;
+	grid-template-columns: 0.5fr 1.6fr 1.7fr;
 	grid-column-gap: 70px;
 }
 

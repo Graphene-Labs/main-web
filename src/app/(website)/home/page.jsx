@@ -41,14 +41,14 @@ const Home1 = () => {
                     <div className="viewport">
                         <BannerV1 />
                         <BannerZoomV1 />
-                        <ServicesV1 />
-                        <AboutV1 sectionClass="default-padding-bottom relative" />
                         <ServiceV3 />
-                        <FactV1 sectionClass="bg-gray" />
-                        <BrandV1 sectionClass="bg-gradient text-light" />
                         <PriceV1 />
+                        {/* <AboutV1 sectionClass="default-padding-bottom relative" /> */}
+                        {/* <FactV1 sectionClass="bg-gray" /> */}
+                        <BrandV1 sectionClass="bg-gradient text-light" />
                         {/* <BrandV1 sectionClass="bg-gradient text-light" /> */}
                         {/* <TestimonialV1 /> */}
+                        <ServicesV1 />
                         <ClientV1 />
                         <TeamV1 />
                         {/* <ProjectV1 /> */}

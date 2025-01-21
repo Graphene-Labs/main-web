@@ -38,7 +38,7 @@ const ServicesV1 = ({ sectionClass }) => {
 
                 <div className="service-content-wrap">
                     <div className="container">
-                        <div className="row">
+                        <div className="">
                             <div className="col-lg-8">
                                 <h4 className="sub-title">Services We Offer</h4>
                                 <h2 className="title">Turn Information <br /> Into Actionable Insights</h2>
@@ -46,8 +46,8 @@ const ServicesV1 = ({ sectionClass }) => {
                         </div>
                     </div>
 
-                    <div className="container min-h-[460px]">
-                        <div className="row md:absolute w-full">
+                    <div className="container min-h-[460px] pt-2">
+                        <div className="md:absolute w-full">
                             <div className="col-lg-12">
                                 <div className="services-item-one-items">
                                     <div className="services-nav">
@@ -61,12 +61,11 @@ const ServicesV1 = ({ sectionClass }) => {
                                         className="services-carousel"
                                         modules={[Keyboard, Autoplay, Navigation]}
                                         spaceBetween={60}
-                                        /*   autoplay={{
-                                              delay: 3000,
-                                              stopOnLastSlide: false,
-                                              disableOnInteraction: false,
-                                          }} */
-                                        autoplay={false}
+                                        autoplay={{
+                                            delay: 3000,
+                                            stopOnLastSlide: false,
+                                            disableOnInteraction: false,
+                                        }}
                                         loop={true}
                                         keyboard={{
                                             enabled: true,
