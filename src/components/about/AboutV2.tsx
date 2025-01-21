@@ -36,27 +36,11 @@ const AboutV2 = ({ sectionClass }) => {
             </Head> */}
 
             <div
-                className={`flex gap-20 ${sectionClass} flex-col-reverse items-center md:items-start lg:flex-row`}
+                className={`flex gap-20 ${sectionClass} flex-col items-center md:items-start lg:flex-row`}
             >
-                <div className="flex-1">
-                    {/* <div className="experience-style-one">
-                        <div className="video-button">
-                            <PopupVideo videoId="ipUuoMCEbDQ" videoClass="video-play-button light">
-                                <i className="fas fa-play"></i>
-                                <div className="effect"></div>
-                            </PopupVideo>
-                        </div>
-                        <h3>{'We’ve over <br /> 28 Years of Experience'}</h3>
-                    </div> */}
-                    <div
-                        className="calendly-inline-widget"
-                        data-url="https://calendly.com/hello-graphenelabs/30min?hide_event_type_details=1&hide_gdpr_banner=1"
-                        style={{ minWidth: '320px', height: '700px' }}
-                    ></div>
-                </div>
                 <div className="container flex-1">
                     <div className="row">
-                        <div className="">
+                        <div className="px-0">
                             <div className="about-style-two-info">
                                 <h4 className="sub-title mt-10">Talk to us</h4>
                                 <h2 className="title">Get your project moving!</h2>
@@ -75,17 +59,28 @@ const AboutV2 = ({ sectionClass }) => {
                                                 account managers)`}
                                             </li>
                                         </ul>
-                                        <Link
+                                        {/* <Link
                                             className="btn btn-gradient btn-sm !mt-20 hidden lg:inline-block"
                                             href="/contact-us"
                                         >
                                             Schedule a Call
-                                        </Link>
+                                        </Link> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="flex-1 w-full min-h-[1450px] sm:min-h-[930px] md:min-h-[1450px] xl:min-h-[850px] relative">
+                    <iframe
+                        src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3qATp083x4v5bsAoj31XvXOHgfj6en6N6IVJV6B721-lTrO-6Q_jKnUk0jq8DU3l4CVD6NOVI8"
+                        width="100%"
+                        className="min-h-[1450px] sm:min-h-[930px] md:min-h-[1450px] xl:min-h-[850px] max-w-[540px] sm:max-w-full md:left-0 overflow-hidden absolute w-screen left-[-12px] md:relative md:w-full"
+                        style={{
+                            mixBlendMode: 'plus-lighter',
+                            filter: 'invert(1) hue-rotate(172deg)',
+                        }}
+                    />
                 </div>
             </div>
         </div>
