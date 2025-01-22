@@ -31,7 +31,7 @@ const BannerZoomV1 = () => {
                                 <div className="inner-content">
                                     <h2><strong>12+</strong> Years of experience</h2>
                                     <p>
-                                    At Graphene Growth Labs, we don't just solve problems—we create pathways to success in manufacturing, logistics, and energy. Our expert team is dedicated to delivering cutting-edge solutions that maximize efficiency, boost productivity, and ensure sustainable growth.
+                                    At Graphene Growth Labs, we don't just solve problems, we create pathways to success in manufacturing, logistics, and energy. Our expert team is dedicated to delivering cutting-edge solutions that maximize efficiency, boost productivity, and ensure sustainable growth.
 
                                     </p>
                                     {/* <Link className="btn-animation" href="/services"><i className="fas fa-arrow-right"></i> <span>Our Services</span></Link> */}
