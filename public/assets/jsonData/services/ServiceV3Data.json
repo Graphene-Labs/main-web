@@ -2,47 +2,47 @@
     {
         "id": 1,
         "icon": "fas fa-vector-square",
-        "title": "Digital Transformation",
+        "title": "E-commerce Solutions",
         "number": "01",
         "text": "",
         "list": [
-            "Cloud Migration Services.",
-            "Digital Strategy Consulting.",
-            "Custom Software Development.",
-            "Mobile and Web Application Development.",
-            "Data Integration and Management."
+            "Build scalable, secure online stores that deliver a seamless shopping experience.",
+            "Optimize your site for maximum conversion rates and user engagement.",
+            "Secure transactions and protect sensitive customer data with advanced security measures.",
+            "Maintain optimal stock levels and manage supply chain efficiently to meet customer demands.",
+            "Foster lasting relationships through personalized interactions and rewards programs."
         ],
         "icon2": "fas fa-arrow-right",
         "thumb": "15.jpg"
     },
     {
         "id": 2,
-        "icon": "fas fa-layer-group",
-        "title": "Process Automation",
+        "icon": "fas fa-vector-square",
+        "title": "Digital Transformation",
         "number": "02",
-        "text": "Optimize your operations with our process automation services. By integrating cutting-edge technology, we streamline workflows, increase efficiency, and reduce costs. Elevate your business performance and gain a competitive edge with our expert solutions.",
+        "text": "",
         "list": [
-            "Robotic Process Automation (RPA).",
-            "Workflow Automation.",
-            "AI-Driven Process Optimization.",
-            "Document Management Automation.",
-            "Customer Relationship Management (CRM) Automation."
+            "Enhance flexibility and scalability while reducing IT overhead.",
+            "Align technology with business goals to drive growth and innovation.",
+            "Tailor-made solutions that fit specific business needs for optimal performance.",
+            "Create engaging, user-friendly platforms to reach customers anywhere, anytime.",
+            "Streamline data processing and access to improve decision-making and operational efficiency."
         ],
         "icon2": "fas fa-arrow-right",
         "thumb": "16.jpg"
     },
     {
         "id": 3,
-        "icon": "fas fa-bullseye",
-        "title": "Enterprise-Wide Business Intelligence",
+        "icon": "fas fa-layer-group",
+        "title": "Process Automation",
         "number": "03",
-        "text": "Align your IT strategy with business goals through our expert business alignment services. We ensure that your technology investments drive your business objectives, optimizing processes and enhancing operational efficiency for sustained growth.",
+        "text": "Optimize your operations with our process automation services. By integrating cutting-edge technology, we streamline workflows, increase efficiency, and reduce costs. Elevate your business performance and gain a competitive edge with our expert solutions.",
         "list": [
-            "IT Governance Framework.",
-            "Change Management.",
-            "Performance Management Systems.",
-            "Technology Roadmapping.",
-            "Compliance and Risk Management."
+            "Reduce manual effort and errors by automating repetitive tasks.",
+            "Enhance efficiency and throughput by streamlining business processes.",
+            "Leverage AI to analyze and improve processes continuously.",
+            "Simplify document handling, storage, and retrieval, increasing productivity.",
+            " Improve customer engagement and satisfaction with automated interaction tracking and management."
         ],
         "icon2": "fas fa-arrow-right",
         "thumb": "17.jpg"
@@ -50,17 +50,17 @@
     {
         "id": 4,
         "icon": "fas fa-bullseye",
-        "title": "Sales and Commercial Business Intelligence",
+        "title": "Comprehensive Business Intelligence Solutions",
         "number": "04",
-        "text": "Empower your decision-making with our Business Intelligence services. We provide comprehensive data analysis tools and insights that drive smarter strategies, improve performance, and foster sustainable growth. Transform data into actionable intelligence with our expertise.",
+        "text": "Align your IT strategy with business goals through our expert business alignment services. We ensure that your technology investments drive your business objectives, optimizing processes and enhancing operational efficiency for sustained growth.",
         "list": [
-            "Data Warehousing.",
-            "Analytics and Reporting Tools.",
-            "Dashboards and Visualization.",
-            "Predictive Analytics.",
-            "Big Data Solutions."
+            "Ensure compliance with industry standards and maintain governance with an integrated framework.",
+            "Implement smooth transitions and continuous performance evaluations to optimize business operations.",
+            "Centralize your data and utilize advanced tools to extract actionable insights for strategic decisions.",
+            "Visualize key metrics and predict future trends to stay ahead of the market.",
+            "Leverage large data sets for deep insights while managing customer relationships effectively to enhance engagement and retention."
         ],
         "icon2": "fas fa-arrow-right",
-        "thumb": "17.jpg"
+        "thumb": "18.jpg"
     }
 ]
