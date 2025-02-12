@@ -5433,8 +5433,9 @@ a.pf-btn i {
 .bg-dark .pricing-style-one {
 	background: rgba(255, 255, 255, 0.06);
 
-	background-image: url('/assets/img/portfolio/diloge-case-study.webp');
+	background-image: url('/assets/img/portfolio/biomundo.webp');
 	background-size: cover;
+	background-position: center
 }
 
 .pricing-style-one:first-child {

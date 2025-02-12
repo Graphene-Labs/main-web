@@ -27,8 +27,8 @@ const PriceV1 = ({ sectionClass }) => {
                             </div>
                             <div className="flex-1">
                                 <h4 className="sub-title hidden lg:inline-block">Case Study</h4>
-                                <h2 className="title">Digital Transformation: Port Security and Loss Prevention</h2>
-                                <p>We implemented a comprehensive solution for port security at DP World Callao, Peru, on behalf of Diloge Company. By integrating an IoT-based QR tracking system and advanced data analytics, this innovation enabled real-time monitoring of trucks, reducing operational losses, enhancing security, and improving overall efficiency in port operations.
+                                <h2 className="title">Logistics Optimization for EU Shipments</h2>
+                                <p>We transformed an existing e-commerce platform by seamlessly integrating top logistics providers like DHL, FedEx, and UPS. This game-changing solution empowers B2B companies across the EU to access unbeatable shipping rates for bulk orders, significantly reducing costs and accelerating cross-border deliveries. With smarter logistics, businesses can now scale faster and operate more efficiently than ever before.
                                 </p>
                                 {/* <h5>Join today and get <strong>50%</strong> Off</h5> */}
                                 <Link className="btn mt-10 btn-gradient btn-sm" href="/#schedule-meet">Get a Free consultantion</Link>
