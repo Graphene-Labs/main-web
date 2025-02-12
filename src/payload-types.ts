@@ -239,10 +239,6 @@ export interface Tactical {
   title: string;
   slug?: string | null;
   slugLock?: boolean | null;
-  /**
-   * Este campo muestra la URL dinámica basada en el slug.
-   */
-  landingURL?: string | null;
   heroImage?: (number | null) | Media;
   heroImageMobile?: (number | null) | Media;
   content: {
@@ -501,7 +497,6 @@ export interface TacticalsSelect<T extends boolean = true> {
   title?: T;
   slug?: T;
   slugLock?: T;
-  landingURL?: T;
   heroImage?: T;
   heroImageMobile?: T;
   content?: T;
