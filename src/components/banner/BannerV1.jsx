@@ -10,7 +10,7 @@ const BannerV1 = () => {
                     <div className="row align-center">
                         <div className="col-lg-8 banner-one-item">
                             <h4 className='sub-title !border-none !rounded-none !p-0 !mb-2 text-[14px] md:text-[16px] leading-1'>Maximize your sales and optimize operations </h4>
-                            <h2 className='!text-[50px] md:!text-[62px] xl:!text-[70px]'>Lets shape the next<strong  className='block md:inline !text-[55px] md:!text-[82px] xl:!text-[80px] w-full'>Industrial Revolution</strong></h2>
+                            <h2 className='!text-[50px] md:!text-[62px] xl:!text-[70px]'>Let's shape the next<strong  className='block md:inline !text-[55px] md:!text-[82px] xl:!text-[80px] w-full'>Industrial Revolution</strong></h2>
                         </div>
                         <div className="col-lg-3 offset-lg-1 banner-one-item text-center">
                             {/* <div className="curve-text">
